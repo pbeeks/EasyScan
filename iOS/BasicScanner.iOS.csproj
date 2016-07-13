@@ -180,7 +180,7 @@
     <BundleResource Include="Resources\kiewitLogo.jpg" />
     <BundleResource Include="Resources\dragonIcon.png" />
     <BundleResource Include="Resources\burg.png" />
-    <BundleResource Include="Resources\carrot.png" />
+    <BundleResource Include="Resources\carrot2.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\menuIcon2.png" />

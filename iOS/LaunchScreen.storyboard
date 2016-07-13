@@ -14,15 +14,18 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="3" translatesAutoresizingMaskIntoConstraints="NO" image="carrot.png">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="3" translatesAutoresizingMaskIntoConstraints="NO" image="carrot.png" fixedFrame="YES">
                                 <rect key="frame" x="57" y="62" width="160" height="240"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="50" y="142" width="219" height="196"/>
                                 </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="7" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="carrot2.png">
+                                <rect key="frame" x="46" y="120" width="230" height="240"/>
                             </imageView>
                         </subviews>
                         <variation key="default">
@@ -46,7 +49,7 @@
         <image name="kiewitLogo.jpg" width="218" height="220"/>
         <image name="dragonIcon.png" width="195" height="195"/>
         <image name="burg.png" width="20" height="20"/>
-        <image name="carrot.png" width="478" height="300"/>
+        <image name="carrot2.png" width="478" height="300"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination"/>
