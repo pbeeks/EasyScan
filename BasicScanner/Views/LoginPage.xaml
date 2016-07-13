@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicScanner.LoginPage">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout>
+				<Image Source="dragonIcon.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+				<Entry x:Name="usernameBox" Placeholder="username" HorizontalOptions="CenterAndExpand" />
+				<Entry x:Name="passwordBox" Placeholder="password" IsPassword="true" HorizontalOptions="CenterAndExpand" Completed="OnComplete" />
+				<Button x:Name="loginButton" Clicked="LoginClicked" Text="Login" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsEnabled="false" />
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>
