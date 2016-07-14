@@ -1,15 +1,13 @@
-﻿using System;
-using Xamarin.Forms;
-using System.Linq;
+﻿using Xamarin.Forms;
 using Acr.UserDialogs;
-using System.ServiceModel.Channels;
 
 namespace BasicScanner
 {
 	public class LoginPageViewModel
 	{
-		public LoginPageViewModel() {
-			
+		public LoginPageViewModel()
+		{
+
 		}
 
 		// Method to login the user
@@ -36,7 +34,7 @@ namespace BasicScanner
 			else
 			{
 				// Check if the username & password match
-				User loginUser = App.Database.GetUser(userParam,passParam);
+				User loginUser = App.Database.GetUser(userParam, passParam);
 				if (loginUser == null)
 				{
 					// Show login failure
@@ -46,7 +44,8 @@ namespace BasicScanner
 			}
 		}
 
-		public void PostLogin(User user) { 
+		public void PostLogin(User user)
+		{
 			App.Current.Properties["IsLoggedIn"] = true;
 			App.Current.Properties["LoggedInUser"] = user.ID;
 			App.Current.SavePropertiesAsync();

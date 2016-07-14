@@ -1,8 +1,6 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Windows.Input;
 using Acr.UserDialogs;
-using Realms;
 using Xamarin.Forms;
 
 namespace BasicScanner

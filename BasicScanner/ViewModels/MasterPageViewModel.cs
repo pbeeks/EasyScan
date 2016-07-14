@@ -1,14 +1,10 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Windows.Input;
-using Acr.UserDialogs;
-using Realms;
 using Xamarin.Forms;
-using ZXing.Net.Mobile.Forms;
 
 namespace BasicScanner
 {
-	public class MasterPageViewModel 
+	public class MasterPageViewModel
 	{
 		private User _currUser;
 		private INavigation _nav;

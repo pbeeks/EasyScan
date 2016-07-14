@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using System.ComponentModel;
-using Xamarin.Forms;
-using Realms;
+﻿using Xamarin.Forms;
 using ZXing.Net.Mobile.Forms;
 using System.Windows.Input;
 using System.Threading.Tasks;
 
 namespace BasicScanner
 {
-	public class HistoryDetailPageViewModel 
+	public class HistoryDetailPageViewModel
 	{
 		public ScanResult HistoryData { get; set; }
-		public Image Barcode { get; set;}
+		public Image Barcode { get; set; }
 		private INavigation _nav;
 
 		public HistoryDetailPageViewModel(ScanResult Info, INavigation iNav)
@@ -25,12 +20,14 @@ namespace BasicScanner
 
 
 		// Method to generate the barcode image for the HistoryDetailsPage
-		public Image GetBarcode() {
+		public Image GetBarcode()
+		{
 			ZXingBarcodeImageView barcode = new ZXingBarcodeImageView();
 
 			// Switch statement for setting the barcode format
 			string format = HistoryData.Format;
-			switch (format) {
+			switch (format)
+			{
 				case "All_1D":
 					barcode.BarcodeFormat = ZXing.BarcodeFormat.All_1D;
 					break;
@@ -122,6 +119,6 @@ namespace BasicScanner
 			await _nav.PopModalAsync();
 		}
 
-		}
+	}
 }
 

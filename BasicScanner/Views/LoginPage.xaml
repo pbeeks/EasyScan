@@ -1,12 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicScanner.LoginPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:BasicScanner;assembly=BasicScanner" x:Class="BasicScanner.LoginPage">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<local:MultiTriggerConverter x:Key="dataHasBeenEntered" />
+		</ResourceDictionary>
+	</ContentPage.Resources>
 	<ContentPage.Content>
 		<ScrollView>
 			<StackLayout>
 				<Image Source="dragonIcon.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-				<Entry x:Name="usernameBox" Placeholder="username" HorizontalOptions="CenterAndExpand" />
-				<Entry x:Name="passwordBox" Placeholder="password" IsPassword="true" HorizontalOptions="CenterAndExpand" Completed="OnComplete" />
-				<Button x:Name="loginButton" Clicked="LoginClicked" Text="Login" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsEnabled="false" />
+				<Entry x:Name="usernameBox" Placeholder="username" HorizontalOptions="CenterAndExpand" Text="" />
+				<Entry x:Name="passwordBox" Placeholder="password" IsPassword="true" HorizontalOptions="CenterAndExpand" Text="" />
+				<Button x:Name="loginButton" Clicked="LoginClicked" Text="Login" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+					<Button.Triggers>
+						<MultiTrigger TargetType="Button">
+							<MultiTrigger.Conditions>
+								<BindingCondition Binding="{Binding Source={x:Reference usernameBox},Path=Text.Length,Converter={StaticResource dataHasBeenEntered}}" Value="false" />
+								<BindingCondition Binding="{Binding Source={x:Reference passwordBox},Path=Text.Length,Converter={StaticResource dataHasBeenEntered}}" Value="false" />
+							</MultiTrigger.Conditions>
+							<Setter Property="IsEnabled" Value="false" />
+						</MultiTrigger>
+					</Button.Triggers>
+				</Button>
 			</StackLayout>
 		</ScrollView>
 	</ContentPage.Content>
