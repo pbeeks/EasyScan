@@ -9,6 +9,12 @@ namespace BasicScanner
 {
 	public class LoginPageViewModel: BaseViewModel
 	{
+		#region Variables
+		private INavigation _nav;
+		private Command _loginCommand;
+		#endregion
+
+		#region Properties
 		private string _userParam;
 		public string userParam { 
 			get
@@ -44,16 +50,43 @@ namespace BasicScanner
 				}
 			}
 		}
+		#endregion
 
 
-		private INavigation _nav;
-
+		#region Methods
 		public LoginPageViewModel(INavigation navigation)
 		{
 			_nav = navigation;
 		}
 
-		public Command _loginCommand;
+		//Method to check if username and password pass the criteria
+		public bool CanLogIn()
+		{
+			if (String.IsNullOrEmpty(userParam) || String.IsNullOrEmpty(passParam))
+			{
+				return false;
+			}
+			else if (userParam.Length < 6 || passParam.Length < 6)
+			{
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
+
+		//Method to assign properties for persistent user login
+		public void PostLogin(User user)
+		{
+			App.Current.Properties["IsLoggedIn"] = true;
+			App.Current.Properties["LoggedInUser"] = user.ID;
+			App.Current.SavePropertiesAsync();
+			App.pubUser = user;
+			App.Current.MainPage = new NavigationPage(new RootPage());
+		}
+		#endregion
+
+		#region Commands
 		public ICommand LoginCommand
 		{
 			get
@@ -65,7 +98,10 @@ namespace BasicScanner
 				return _loginCommand;
 			}
 		}
+		#endregion
 
+
+		#region Tasks
 		// Method to login the user
 		public async Task Login()
 		{
@@ -99,32 +135,10 @@ namespace BasicScanner
 				PostLogin(loginUser);
 			}
 		}
+		#endregion
 
-		//Method to check if username and password pass the criteria
-		public bool CanLogIn()
-		{
-			if (String.IsNullOrEmpty(userParam) || String.IsNullOrEmpty(passParam))
-			{
-				return false;
-			}
-			else if (userParam.Length < 6 || passParam.Length < 6)
-			{
-				return false;
-			}
-			else {
-				return true;
-			}
-		}
 
-		//Method to assign properties for persistent user login
-		public void PostLogin(User user)
-		{
-			App.Current.Properties["IsLoggedIn"] = true;
-			App.Current.Properties["LoggedInUser"] = user.ID;
-			App.Current.SavePropertiesAsync();
-			App.pubUser = user;
-			App.Current.MainPage = new NavigationPage(new RootPage());
-		}
+
 	}
 }
 

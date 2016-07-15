@@ -7,16 +7,34 @@ namespace BasicScanner
 {
 	public class OptionsPageViewModel
 	{
+		#region Variables
 		private User _currUser;
 		private INavigation _nav;
+		private Command _historyCommand;
+		private Command _logoutCommand;
+		#endregion
 
+		#region Methods
 		public OptionsPageViewModel(INavigation navigation)
 		{
 			_nav = navigation;
 			_currUser = App.pubUser;
 		}
+		#endregion
 
-		public Command _historyCommand;
+		#region Commands
+		public ICommand LogoutCommand
+		{
+			get
+			{
+				if (_logoutCommand == null)
+				{
+					_logoutCommand = new Command(async () => await LogoutTask());
+				}
+				return _logoutCommand;
+			}
+		}
+
 		public ICommand HistoryCommand
 		{
 			get
@@ -28,26 +46,15 @@ namespace BasicScanner
 				return _historyCommand;
 			}
 		}
+		#endregion
 
+		#region Tasks
 		async Task HistoryTask()
 		{
 			await _nav.PushAsync(new HistoryPage()
 			{
 				Title = "History"
 			});
-		}
-
-		public Command _logoutCommand;
-		public ICommand LogoutCommand
-		{
-			get
-			{
-				if (_logoutCommand == null)
-				{
-					_logoutCommand = new Command(async () => await LogoutTask());
-				}
-				return _logoutCommand;
-			}
 		}
 
 		//Task to log out and set the properties to diable the persisting user
@@ -61,9 +68,8 @@ namespace BasicScanner
 				await App.Current.SavePropertiesAsync();
 				App.Current.MainPage = new LoginPage();
 			}
-
-
 		}
+		#endregion
 	}
 }
 
