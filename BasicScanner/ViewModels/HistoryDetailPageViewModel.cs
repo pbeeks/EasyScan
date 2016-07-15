@@ -7,17 +7,19 @@ namespace BasicScanner
 {
 	public class HistoryDetailPageViewModel
 	{
+		#region Variables
 		public ScanResult HistoryData { get; set; }
 		public Image Barcode { get; set; }
 		private INavigation _nav;
+		#endregion
 
+		#region Methods
 		public HistoryDetailPageViewModel(ScanResult Info, INavigation iNav)
 		{
 			_nav = iNav;
 			HistoryData = Info;
 			Barcode = GetBarcode();
 		}
-
 
 		// Method to generate the barcode image for the HistoryDetailsPage
 		public Image GetBarcode()
@@ -100,7 +102,9 @@ namespace BasicScanner
 			Image barcodeF = barcode as Image;
 			return barcodeF;
 		}
+		#endregion
 
+		#region Commands
 		// Command to move a page back
 		public Command _backCommand;
 		public ICommand BackCommand
@@ -114,13 +118,17 @@ namespace BasicScanner
 				return _backCommand;
 			}
 		}
+		#endregion
 
+
+
+		#region Tasks
 		//Task to move a page back
 		async Task RunBack()
 		{
 			await _nav.PopModalAsync();
 		}
-
+		#endregion
 	}
 }
 
