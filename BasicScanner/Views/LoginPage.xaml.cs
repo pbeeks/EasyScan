@@ -7,32 +7,17 @@ namespace BasicScanner
 {
 	public partial class LoginPage : ContentPage
 	{
-		private LoginPageViewModel _loginPageVM;
 
 		public LoginPage()
 		{
-			InitializeComponent();
 			NavigationPage.SetHasNavigationBar(this, false);
-			this.BindingContext = _loginPageVM;
+			this.BindingContext = new LoginPageViewModel(this.Navigation);
+			InitializeComponent();
 
 		}
-
-		public void LoginClicked(object sender, EventArgs e)
-		{
-			string username = null;
-			string password = null;
-			_loginPageVM = new LoginPageViewModel();
-			username = usernameBox.Text;
-			password = passwordBox.Text;
-			_loginPageVM.Login(username, password);
-		}
-
-		//public void OnComplete(object sender, EventArgs e) {
-		//	if (usernameBox.Text.Length > 5 && passwordBox.Text.Length > 5) {
-		//		loginButton.IsEnabled = true;
-		//	}
-		//}
 	}
+
+	//Converter for password and username enrty boxes
 	public class MultiTriggerConverter : IValueConverter
 	{
 		public object Convert(object value, Type targetType,
@@ -52,3 +37,18 @@ namespace BasicScanner
 	}
 }
 
+//public void LoginClicked(object sender, EventArgs e)
+//{
+//	string username = null;
+//	string password = null;
+//	_loginPageVM = new LoginPageViewModel();
+//	username = usernameBox.Text;
+//	password = passwordBox.Text;
+//	_loginPageVM.Login(username, password);
+//}
+
+//public void OnComplete(object sender, EventArgs e) {
+//	if (usernameBox.Text.Length > 5 && passwordBox.Text.Length > 5) {
+//		loginButton.IsEnabled = true;
+//	}
+//}

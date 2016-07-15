@@ -1,17 +1,73 @@
 ﻿using Xamarin.Forms;
 using Acr.UserDialogs;
+using System;
+using System.Windows.Input;
+using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace BasicScanner
 {
-	public class LoginPageViewModel
+	public class LoginPageViewModel: BaseViewModel
 	{
-		public LoginPageViewModel()
-		{
+		private string _userParam;
+		public string userParam { 
+			get
+			{
+				return _userParam;
+			}
+			set
+			{
+				if (_userParam != value)
+				{
+					_userParam = value;
+					OnPropertyChanged();
+					_loginCommand.ChangeCanExecute();
+				}
+			}
+		}
 
+
+		private string _passParam;
+		public string passParam
+		{
+			get
+			{
+				return _passParam;
+			}
+			set
+			{
+				if (_passParam != value)
+				{
+					_passParam = value;
+					OnPropertyChanged();
+					_loginCommand.ChangeCanExecute();
+				}
+			}
+		}
+
+
+		private INavigation _nav;
+
+		public LoginPageViewModel(INavigation navigation)
+		{
+			_nav = navigation;
+		}
+
+		public Command _loginCommand;
+		public ICommand LoginCommand
+		{
+			get
+			{
+				if (_loginCommand == null)
+				{
+					_loginCommand = new Command(async () => await Login(), CanLogIn);
+				}
+				return _loginCommand;
+			}
 		}
 
 		// Method to login the user
-		public async void Login(string userParam, string passParam)
+		public async Task Login()
 		{
 
 			var currentUser = App.Database.GetUser(userParam, passParam);
@@ -44,6 +100,23 @@ namespace BasicScanner
 			}
 		}
 
+		//Method to check if username and password pass the criteria
+		public bool CanLogIn()
+		{
+			if (String.IsNullOrEmpty(userParam) || String.IsNullOrEmpty(passParam))
+			{
+				return false;
+			}
+			else if (userParam.Length < 6 || passParam.Length < 6)
+			{
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
+
+		//Method to assign properties for persistent user login
 		public void PostLogin(User user)
 		{
 			App.Current.Properties["IsLoggedIn"] = true;
@@ -52,8 +125,6 @@ namespace BasicScanner
 			App.pubUser = user;
 			App.Current.MainPage = new NavigationPage(new RootPage());
 		}
-
-
 	}
 }
 

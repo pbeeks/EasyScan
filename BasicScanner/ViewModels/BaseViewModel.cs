@@ -5,20 +5,15 @@ namespace BasicScanner
 {
 	public class BaseViewModel : INotifyPropertyChanged
 	{
-
+		//Generic ViewModel to implement INotifyPropertyChanged interface to eliminate redundancies 
 		public event PropertyChangedEventHandler PropertyChanged;
 
-		public BaseViewModel()
+		public void OnPropertyChanged([CallerMemberName] string name = "")
 		{
-
-		}
-
-		public void OnPropertyChanged([CallerMemberName]string name = "")
-		{
-			var changed = PropertyChanged;
-			if (changed == null)
+			var handler = PropertyChanged;
+			if (handler == null)
 				return;
-			changed(this, new PropertyChangedEventArgs(name));
+			handler(this, new PropertyChangedEventArgs(name));
 		}
 	}
 }

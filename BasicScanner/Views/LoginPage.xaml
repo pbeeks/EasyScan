@@ -8,19 +8,10 @@
 	<ContentPage.Content>
 		<ScrollView>
 			<StackLayout>
-				<Image Source="dragonIcon.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-				<Entry x:Name="usernameBox" Placeholder="username" HorizontalOptions="CenterAndExpand" Text="" />
-				<Entry x:Name="passwordBox" Placeholder="password" IsPassword="true" HorizontalOptions="CenterAndExpand" Text="" />
-				<Button x:Name="loginButton" Clicked="LoginClicked" Text="Login" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-					<Button.Triggers>
-						<MultiTrigger TargetType="Button">
-							<MultiTrigger.Conditions>
-								<BindingCondition Binding="{Binding Source={x:Reference usernameBox},Path=Text.Length,Converter={StaticResource dataHasBeenEntered}}" Value="false" />
-								<BindingCondition Binding="{Binding Source={x:Reference passwordBox},Path=Text.Length,Converter={StaticResource dataHasBeenEntered}}" Value="false" />
-							</MultiTrigger.Conditions>
-							<Setter Property="IsEnabled" Value="false" />
-						</MultiTrigger>
-					</Button.Triggers>
+				<Image Source="newScanner.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+				<Entry x:Name="usernameBox" Placeholder="username" HorizontalOptions="CenterAndExpand" Text="{Binding userParam}" />
+				<Entry x:Name="passwordBox" Placeholder="password" IsPassword="true" HorizontalOptions="CenterAndExpand" Text="{Binding passParam}" />
+				<Button x:Name="loginButton" Command="{Binding LoginCommand}" Text="Login" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="Large" >
 				</Button>
 			</StackLayout>
 		</ScrollView>

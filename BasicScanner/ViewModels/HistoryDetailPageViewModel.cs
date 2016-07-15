@@ -101,6 +101,7 @@ namespace BasicScanner
 			return barcodeF;
 		}
 
+		// Command to move a page back
 		public Command _backCommand;
 		public ICommand BackCommand
 		{
@@ -114,6 +115,7 @@ namespace BasicScanner
 			}
 		}
 
+		//Task to move a page back
 		async Task RunBack()
 		{
 			await _nav.PopModalAsync();

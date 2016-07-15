@@ -181,6 +181,8 @@
     <BundleResource Include="Resources\dragonIcon.png" />
     <BundleResource Include="Resources\burg.png" />
     <BundleResource Include="Resources\carrot2.png" />
+    <BundleResource Include="Resources\newScanner.png" />
+    <BundleResource Include="Resources\ScannerBig.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\menuIcon2.png" />

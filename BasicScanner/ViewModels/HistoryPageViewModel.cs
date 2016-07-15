@@ -18,6 +18,7 @@ namespace BasicScanner
 
 		}
 
+		//Mothod to assign the user's ScanResults to the ListView's IEnumerable
 		public void GetData()
 		{
 			ScanList = App.Database.GetResults(_user);

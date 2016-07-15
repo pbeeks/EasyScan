@@ -24,7 +24,7 @@
                                     <rect key="frame" x="50" y="142" width="219" height="196"/>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="7" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="carrot2.png">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="7" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="ScannerBig.png">
                                 <rect key="frame" x="46" y="120" width="230" height="240"/>
                             </imageView>
                         </subviews>
@@ -50,6 +50,9 @@
         <image name="dragonIcon.png" width="195" height="195"/>
         <image name="burg.png" width="20" height="20"/>
         <image name="carrot2.png" width="478" height="300"/>
+        <image name="newScanner.png" width="120" height="120"/>
+        <image name="newScannerBig.png" width="150" height="150"/>
+        <image name="ScannerBig.png" width="512" height="512"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination"/>

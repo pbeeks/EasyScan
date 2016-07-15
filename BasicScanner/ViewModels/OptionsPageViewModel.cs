@@ -50,7 +50,7 @@ namespace BasicScanner
 			}
 		}
 
-
+		//Task to log out and set the properties to diable the persisting user
 		async Task LogoutTask()
 		{
 			bool result = await UserDialogs.Instance.ConfirmAsync("Are you sure you want to log out?", "Log out?", "Yes", "No");
