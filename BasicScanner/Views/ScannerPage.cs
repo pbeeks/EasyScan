@@ -1,9 +1,7 @@
 ﻿using System;
 using ZXing.Net.Mobile.Forms;
 using Xamarin.Forms;
-using Realms;
 using Acr.UserDialogs;
-using ZXing;
 
 namespace BasicScanner
 {
@@ -12,7 +10,6 @@ namespace BasicScanner
 		ZXingScannerView zxing;
 		ZXingDefaultOverlay overlay;
 		private INavigation _nav;
-		private Realm _realm;
 		private User _currUser;
 
 	     public ScannerPage(INavigation nav)

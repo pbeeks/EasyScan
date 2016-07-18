@@ -8,10 +8,10 @@ namespace BasicScanner
 	public class OptionsPageViewModel
 	{
 		#region Variables
-		private User _currUser;
 		private INavigation _nav;
 		private Command _historyCommand;
 		private Command _logoutCommand;
+		private User _currUser;
 		#endregion
 
 		#region Methods

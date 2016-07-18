@@ -7,9 +7,9 @@ namespace BasicScanner
 	public class MasterPageViewModel
 	{
 		#region Variables
-		private User _currUser;
 		private INavigation _nav;
 		private Command _scanCommand;
+		private User _currUser;
 		#endregion
 
 		#region

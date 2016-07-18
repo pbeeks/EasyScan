@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Realms;
-using Xamarin.Forms;
-using ZXing.Net.Mobile.Forms;
-using System.Dynamic;
-using Acr.UserDialogs;
+﻿using Xamarin.Forms;
 
 namespace BasicScanner
 {
