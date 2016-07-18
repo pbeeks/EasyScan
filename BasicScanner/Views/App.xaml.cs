@@ -6,7 +6,7 @@ namespace BasicScanner
 	public partial class App : Application
 	{
 		static ScannerDatabase database;
-		public static User pubUser { get; set; }
+		public static User PubUser { get; set; }
 
 		public App()
 		{
@@ -23,7 +23,7 @@ namespace BasicScanner
 			}
 			if (isLoggedIn == true)
 			{
-				pubUser = App.Database.GetUserByName(persistUser);
+				PubUser = App.Database.GetUserByName(persistUser);
 
 				MainPage = new NavigationPage(new RootPage());
 			}

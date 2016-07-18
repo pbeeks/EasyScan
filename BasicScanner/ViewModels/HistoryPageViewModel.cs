@@ -14,7 +14,7 @@ namespace BasicScanner
 		#region Methods
 		public HistoryPageViewModel(INavigation iNav)
 		{
-			_user = App.pubUser;
+			_user = App.PubUser;
 			Navigation = iNav;
 		}
 

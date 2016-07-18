@@ -80,7 +80,7 @@ namespace BasicScanner
 			App.Current.Properties["IsLoggedIn"] = true;
 			App.Current.Properties["LoggedInUser"] = user.ID;
 			App.Current.SavePropertiesAsync();
-			App.pubUser = user;
+			App.PubUser = user;
 			App.Current.MainPage = new NavigationPage(new RootPage());
 		}
 		#endregion
@@ -109,7 +109,7 @@ namespace BasicScanner
 			if (currentUser == null)
 			{
 				// Give the user opportunity to create a new user
-				var answer = await UserDialogs.Instance.ConfirmAsync("User not found, create user " + userParam + "?", "Cancel", "Create");
+				var answer = await UserDialogs.Instance.Prompt("User not found, create user " + userParam + "?", "Ok");
 				if (answer == true)
 				{
 					User loginUser = new User();
