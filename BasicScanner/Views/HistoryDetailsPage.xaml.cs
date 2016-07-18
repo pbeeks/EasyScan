@@ -8,14 +8,11 @@ namespace BasicScanner
 {
 	public partial class HistoryDetailsPage : ContentPage
 	{
-		
-
 		public HistoryDetailsPage(ScanResult Info)
 		{
 			this.BindingContext = new HistoryDetailPageViewModel(Info, this.Navigation);
 			InitializeComponent();
 		}
-
 	}
 }
 

@@ -18,7 +18,7 @@ namespace BasicScanner
 		public OptionsPageViewModel(INavigation navigation)
 		{
 			_nav = navigation;
-			_currUser = App.pubUser;
+			_currUser = App.PubUser;
 		}
 		#endregion
 

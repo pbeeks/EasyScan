@@ -14,7 +14,7 @@ namespace BasicScanner
 
 	     public ScannerPage(INavigation nav)
 		{
-			_currUser = App.pubUser;
+			_currUser = App.PubUser;
 			_nav = nav;
 			Title = "Scan";
 			zxing = new ZXingScannerView()

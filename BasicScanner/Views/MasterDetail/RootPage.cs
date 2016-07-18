@@ -7,7 +7,6 @@ namespace BasicScanner
 {
 	public partial class RootPage : MasterDetailPage
 	{
-
 		public RootPage()
 		{
 			NavigationPage.SetHasNavigationBar(this, false);

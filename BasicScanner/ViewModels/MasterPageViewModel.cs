@@ -16,7 +16,7 @@ namespace BasicScanner
 		public MasterPageViewModel(INavigation navigation)
 		{
 			_nav = navigation;
-			_currUser = App.pubUser;
+			_currUser = App.PubUser;
 		}
 		#endregion
 
