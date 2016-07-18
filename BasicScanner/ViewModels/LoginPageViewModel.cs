@@ -3,7 +3,6 @@ using Acr.UserDialogs;
 using System;
 using System.Windows.Input;
 using System.Threading.Tasks;
-using System.ComponentModel;
 
 namespace BasicScanner
 {

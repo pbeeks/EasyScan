@@ -1,7 +1,4 @@
-﻿using System.Linq;
-using Realms;
-using Xamarin.Forms;
-using Acr.UserDialogs;
+﻿using Xamarin.Forms;
 using System;
 
 namespace BasicScanner
