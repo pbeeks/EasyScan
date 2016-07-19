@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicScanner
 {
-	public class LoginPageViewModel: BaseViewModel
+	public class LoginPageViewModel : BaseViewModel
 	{
 		#region Variables
 		private INavigation _nav;
@@ -15,7 +15,8 @@ namespace BasicScanner
 
 		#region Properties
 		private string _userParam;
-		public string userParam { 
+		public string userParam
+		{
 			get
 			{
 				return _userParam;
@@ -83,6 +84,24 @@ namespace BasicScanner
 			App.PubUser = user;
 			App.Current.MainPage = new NavigationPage(new RootPage());
 		}
+
+		public async void NewUser()
+		{
+			// Give the user opportunity to create a new user
+			await UserDialogs.Instance.AlertAsync(new AlertConfig
+			{
+				Title = "User not found, create user " + userParam + "?",
+			});
+
+			User loginUser = new User();
+			loginUser.username = userParam;
+			loginUser.password = passParam;
+			App.Database.InsertUser(loginUser);
+
+			// Show successful login
+			UserDialogs.Instance.SuccessToast("User created", null, 3000);
+			PostLogin(loginUser);
+		}
 		#endregion
 
 		#region Commands
@@ -101,38 +120,34 @@ namespace BasicScanner
 
 
 		#region Tasks
-		// Method to login the user
+		// Task to login the user
 		public async Task Login()
 		{
-
-			var currentUser = App.Database.GetUser(userParam, passParam);
-			if (currentUser == null)
+			var checkUser = App.Database.CheckUser(userParam);
+			// Username not in DB
+			if (checkUser == false)
 			{
-				// Give the user opportunity to create a new user
-				var answer = await UserDialogs.Instance.Prompt("User not found, create user " + userParam + "?", "Ok");
-				if (answer == true)
-				{
-					User loginUser = new User();
-					loginUser.username = userParam;
-					loginUser.password = passParam;
-					App.Database.InsertUser(loginUser);
-
-					// Show successful login
-					UserDialogs.Instance.SuccessToast("User created", null, 3000);
-					PostLogin(loginUser);
-				}
+				NewUser();
 			}
-			else
+			// Username used, password doesn't match
+			else 
 			{
-				// Check if the username & password match
-				User loginUser = App.Database.GetUser(userParam, passParam);
+				var loginUser = App.Database.CheckCredentials(userParam, passParam);
 				if (loginUser == null)
 				{
 					// Show login failure
 					UserDialogs.Instance.ErrorToast("Login failed", "Username or password incorrect", 3000);
 				}
-				PostLogin(loginUser);
+				//Username and password match
+				else {
+					PostLogin(loginUser);
+				}
 			}
+
+
+
+
+
 		}
 		#endregion
 
