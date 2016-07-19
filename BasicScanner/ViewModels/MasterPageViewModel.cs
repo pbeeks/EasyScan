@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+using System.Linq;
 
 namespace BasicScanner
 {
@@ -12,11 +13,18 @@ namespace BasicScanner
 		private User _currUser;
 		#endregion
 
+		#region Properties
+		public string Count { get; set;}
+		public string LastScan { get; set; }
+		#endregion
+
 		#region
 		public MasterPageViewModel(INavigation navigation)
 		{
 			_nav = navigation;
 			_currUser = App.PubUser;
+			Count = "Scans: " + App.Database.GetResults(_currUser).Count().ToString();
+			LastScan = "Last scan: " + App.Database.GetResults(_currUser).Last().Date.ToString() + " " + App.Database.GetResults(_currUser).Last().Time.ToString();
 		}
 		#endregion
 

@@ -155,6 +155,7 @@
     <AndroidResource Include="Resources\drawable\menuIcon2.png" />
     <AndroidResource Include="Resources\drawable\burg.png" />
     <AndroidResource Include="Resources\drawable\newScanner.png" />
+    <AndroidResource Include="Resources\drawable\plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
