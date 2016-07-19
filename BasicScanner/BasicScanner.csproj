@@ -88,6 +88,7 @@
     <Compile Include="Database\ScannerDatabase.cs" />
     <Compile Include="Database\ScanResult.cs" />
     <Compile Include="Database\User.cs" />
+    <Compile Include="ViewModels\NativeListViewViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="FodyWeavers.xml" />

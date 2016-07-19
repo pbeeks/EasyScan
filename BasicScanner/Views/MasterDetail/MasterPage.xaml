@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicScanner.MasterPage" Padding="0,40,0,0"
 		Icon="burg.png"
-		Title="Main"
-		>
+		Title="Main">
+		<ContentPage.ToolbarItems>
+			<ToolbarItem Icon="plus.png" Command="{Binding ScanCommand}" />
+		</ContentPage.ToolbarItems>	
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="FillAndExpand">
-			<Button Text="Scan" Command="{Binding ScanCommand}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+			<Label Text="{Binding Count}" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" />
+			<Label Text="{Binding LastScan}" FontSize="Small" HorizontalOptions="Center" VerticalOptions="Center" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
