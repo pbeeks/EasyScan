@@ -12,6 +12,7 @@ namespace BasicScanner
 		private INavigation _nav;
 		private User _currUser;
 
+
 	     public ScannerPage(INavigation nav)
 		{
 			_currUser = App.PubUser;
@@ -50,6 +51,7 @@ namespace BasicScanner
 							  App.Database.InsertScanResult(newScan);
 					  }
 				  }
+				  MessagingCenter.Send<ScannerPage, string>(this, "Hi", "info");
 				  await _nav.PopAsync();
 			  });
 

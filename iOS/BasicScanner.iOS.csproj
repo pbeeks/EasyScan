@@ -152,6 +152,15 @@
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\scanner-barcode120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\scanner-barcode80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\scanner-barcode87.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\scanner-barcode58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\scanner-barcode180x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\scanner-barcode120x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\scanner-barcode114.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\scanner-barcode57.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

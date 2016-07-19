@@ -15,7 +15,7 @@ namespace BasicScanner
 
 		#region Properties
 		private string _userParam;
-		public string userParam
+		public string UserParam
 		{
 			get
 			{
@@ -34,7 +34,7 @@ namespace BasicScanner
 
 
 		private string _passParam;
-		public string passParam
+		public string PassParam
 		{
 			get
 			{
@@ -62,11 +62,11 @@ namespace BasicScanner
 		//Method to check if username and password pass the criteria
 		public bool CanLogIn()
 		{
-			if (String.IsNullOrEmpty(userParam) || String.IsNullOrEmpty(passParam))
+			if (String.IsNullOrEmpty(UserParam) || String.IsNullOrEmpty(PassParam))
 			{
 				return false;
 			}
-			else if (userParam.Length < 6 || passParam.Length < 6)
+			else if (UserParam.Length < 6 || PassParam.Length < 6)
 			{
 				return false;
 			}
@@ -90,12 +90,12 @@ namespace BasicScanner
 			// Give the user opportunity to create a new user
 			await UserDialogs.Instance.AlertAsync(new AlertConfig
 			{
-				Title = "User not found, create user " + userParam + "?",
+				Title = "User not found, create user " + UserParam + "?",
 			});
 
 			User loginUser = new User();
-			loginUser.username = userParam;
-			loginUser.password = passParam;
+			loginUser.username = UserParam;
+			loginUser.password = PassParam;
 			App.Database.InsertUser(loginUser);
 
 			// Show successful login
@@ -123,16 +123,16 @@ namespace BasicScanner
 		// Task to login the user
 		public async Task Login()
 		{
-			var checkUser = App.Database.CheckUser(userParam);
+			var checkUser = App.Database.CheckUser(UserParam);
 			// Username not in DB
 			if (checkUser == false)
 			{
 				NewUser();
 			}
 			// Username used, password doesn't match
-			else 
+			else
 			{
-				var loginUser = App.Database.CheckCredentials(userParam, passParam);
+				var loginUser = App.Database.CheckCredentials(UserParam, PassParam);
 				if (loginUser == null)
 				{
 					// Show login failure
@@ -143,16 +143,8 @@ namespace BasicScanner
 					PostLogin(loginUser);
 				}
 			}
-
-
-
-
-
 		}
 		#endregion
-
-
-
 	}
 }
 
