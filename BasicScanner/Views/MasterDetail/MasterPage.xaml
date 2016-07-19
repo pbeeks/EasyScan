@@ -6,7 +6,7 @@
 			<ToolbarItem Icon="plus.png" Command="{Binding ScanCommand}" />
 		</ContentPage.ToolbarItems>	
 	<ContentPage.Content>
-		<StackLayout VerticalOptions="FillAndExpand">
+		<StackLayout>
 			<Label Text="{Binding Count}" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" />
 			<Label Text="{Binding LastScan}" FontSize="Small" HorizontalOptions="Center" VerticalOptions="Center" />
 		</StackLayout>
