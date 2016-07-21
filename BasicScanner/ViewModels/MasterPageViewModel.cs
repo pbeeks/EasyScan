@@ -52,14 +52,30 @@ namespace BasicScanner
 		#region Methods
 		public MasterPageViewModel(INavigation navigation)
 		{
-			_nav = navigation;
 			_currUser = App.PubUser;
+			_nav = navigation;
 		}
 
 		public void Update()
 		{
-			Count = "Scans: " + App.Database.GetResults(_currUser).Count().ToString();
-			LastScan = "Last scan: " + App.Database.GetResults(_currUser).Last().Date.ToString() + " " + App.Database.GetResults(_currUser).Last().Time.ToString();
+			string scans;
+			string date;
+			string time;
+			try
+			{
+				scans = App.Database.GetResults(_currUser).Count().ToString();
+				date = App.Database.GetResults(_currUser).ToList().Last().Date.ToString();
+				time = App.Database.GetResults(_currUser).ToList().Last().Time.ToString();
+			}
+			catch
+			{
+				scans = "0";
+				date = "--";
+				time = "--";
+			}
+
+			Count = "Scans: " + scans;
+			LastScan = "Last scan: " + date + " " + time;
 		}
 		#endregion
 

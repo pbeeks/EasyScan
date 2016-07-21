@@ -4,13 +4,32 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.ComponentModel;
 
 namespace BasicScanner
 {
-	public class HistoryPageViewModel
+	public class HistoryPageViewModel : BaseViewModel
 	{
+		#region Properties
+		private ObservableCollection<ScanResult> _scanList;
+		public ObservableCollection<ScanResult> ScanList
+		{
+			get
+			{
+				return _scanList;
+			}
+			set
+			{
+				if (_scanList != value)
+				{
+					_scanList = value;
+					OnPropertyChanged();
+				}
+			}
+		}
+		#endregion
+
 		#region Variables
-		public ObservableCollection<ScanResult> ScanList { get; set; }
 		public INavigation Navigation { get; set; }
 		private User _user;
 		public Command _deleteHistoryItem;
@@ -33,6 +52,7 @@ namespace BasicScanner
 		public void RemoveHistoryItem(ScanResult sender)
 		{
 			App.Database.RemoveScanResult(sender);
+			ScanList.Remove(sender);
 		}
 		#endregion
 	}

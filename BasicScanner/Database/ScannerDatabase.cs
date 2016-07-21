@@ -5,6 +5,7 @@ using System.Collections;
 using System.Linq;
 using System.Collections.Generic;
 using Acr.UserDialogs;
+using System.ComponentModel;
 
 namespace BasicScanner
 {
@@ -21,7 +22,7 @@ namespace BasicScanner
 
 		public IEnumerable<ScanResult> GetResults(User user)
 		{
-			return (from i in database.Table<ScanResult>() select i).Where(p => p.UserID == user.ID).ToList();
+			return (from i in database.Table<ScanResult>() select i).Where(p => p.UserID == user.ID);
 		}
 
 		public User CheckCredentials(string userParam, string passParam)
@@ -51,14 +52,16 @@ namespace BasicScanner
 			{
 				return true;
 			}
-			else 
+			else
 			{
 				return false;
 			}
 		}
 
-		public void RemoveScanResult(ScanResult result) {
-			database.Delete<ScanResult>(result.UserID);
+		public bool RemoveScanResult(ScanResult result)
+		{
+			database.Delete<ScanResult>(result.ScanID);
+			return true;
 		}
 	}
 }
