@@ -8,6 +8,9 @@ namespace BasicScanner
 		{
 		}
 
+		[PrimaryKey, AutoIncrement]
+		public int ScanID { get; set; }
+
 		public string Date { get; set; }
 
 		public string Time { get; set; }
