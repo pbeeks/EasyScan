@@ -1,4 +1,5 @@
 ﻿using System;
+using SQLite;
 namespace BasicScanner
 {
 	public class ScanResult

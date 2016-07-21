@@ -99,7 +99,7 @@ namespace BasicScanner
 			App.Database.InsertUser(loginUser);
 
 			// Show successful login
-			UserDialogs.Instance.SuccessToast("User created", null, 3000);
+			UserDialogs.Instance.ShowSuccess("User created", 3000);
 			PostLogin(loginUser);
 		}
 		#endregion
@@ -136,7 +136,7 @@ namespace BasicScanner
 				if (loginUser == null)
 				{
 					// Show login failure
-					UserDialogs.Instance.ErrorToast("Login failed", "Username or password incorrect", 3000);
+					UserDialogs.Instance.ShowError("Login failed: username or password incorrect", 3000);
 				}
 				//Username and password match
 				else {
