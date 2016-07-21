@@ -5,6 +5,9 @@
 			<ListView.ItemTemplate>
 				<DataTemplate>
 					<ViewCell>
+						<ViewCell.ContextActions>
+							<MenuItem Text="Delete" IsDestructive="true" Clicked="DeleteHistoryItem" CommandParameter="{Binding .}" />
+						</ViewCell.ContextActions>
 						<Grid Padding="0">
 							<Grid.ColumnDefinitions>
 								<ColumnDefinition Width="*" />

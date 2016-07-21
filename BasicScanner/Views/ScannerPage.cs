@@ -51,7 +51,6 @@ namespace BasicScanner
 							  App.Database.InsertScanResult(newScan);
 					  }
 				  }
-				  MessagingCenter.Send<ScannerPage, string>(this, "Hi", "info");
 				  await _nav.PopAsync();
 			  });
 

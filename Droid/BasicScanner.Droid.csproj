@@ -74,21 +74,6 @@
     <Reference Include="Acr.Support.Android">
       <HintPath>..\packages\Acr.Support.2.1.0\lib\MonoAndroid10\Acr.Support.Android.dll</HintPath>
     </Reference>
-    <Reference Include="zxing.portable">
-      <HintPath>..\packages\ZXing.Net.Mobile.2.0.4.46\lib\MonoAndroid403\zxing.portable.dll</HintPath>
-    </Reference>
-    <Reference Include="ZXing.Net.Mobile.Core">
-      <HintPath>..\packages\ZXing.Net.Mobile.2.0.4.46\lib\MonoAndroid403\ZXing.Net.Mobile.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="ZXingNetMobile">
-      <HintPath>..\packages\ZXing.Net.Mobile.2.0.4.46\lib\MonoAndroid403\ZXingNetMobile.dll</HintPath>
-    </Reference>
-    <Reference Include="ZXing.Net.Mobile.Forms">
-      <HintPath>..\packages\ZXing.Net.Mobile.Forms.2.0.4.46\lib\MonoAndroid403\ZXing.Net.Mobile.Forms.dll</HintPath>
-    </Reference>
-    <Reference Include="ZXing.Net.Mobile.Forms.Android">
-      <HintPath>..\packages\ZXing.Net.Mobile.Forms.2.0.4.46\lib\MonoAndroid403\ZXing.Net.Mobile.Forms.Android.dll</HintPath>
-    </Reference>
     <Reference Include="ExifLib">
       <HintPath>..\packages\ExifLib.PCL.1.0.1\lib\portable-net45+sl50+win+WindowsPhoneApp81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10\ExifLib.dll</HintPath>
     </Reference>
@@ -119,11 +104,26 @@
     <Reference Include="SQLite.Net.Platform.XamarinAndroid">
       <HintPath>..\packages\SQLite.Net-PCL.3.1.1\lib\MonoAndroid\SQLite.Net.Platform.XamarinAndroid.dll</HintPath>
     </Reference>
+    <Reference Include="zxing.portable">
+      <HintPath>..\packages\ZXing.Net.Mobile.2.1.13\lib\MonoAndroid403\zxing.portable.dll</HintPath>
+    </Reference>
+    <Reference Include="ZXing.Net.Mobile.Core">
+      <HintPath>..\packages\ZXing.Net.Mobile.2.1.13\lib\MonoAndroid403\ZXing.Net.Mobile.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ZXingNetMobile">
+      <HintPath>..\packages\ZXing.Net.Mobile.2.1.13\lib\MonoAndroid403\ZXingNetMobile.dll</HintPath>
+    </Reference>
+    <Reference Include="ZXing.Net.Mobile.Forms">
+      <HintPath>..\packages\ZXing.Net.Mobile.Forms.2.1.13\lib\MonoAndroid403\ZXing.Net.Mobile.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="ZXing.Net.Mobile.Forms.Android">
+      <HintPath>..\packages\ZXing.Net.Mobile.Forms.2.1.13\lib\MonoAndroid403\ZXing.Net.Mobile.Forms.Android.dll</HintPath>
+    </Reference>
     <Reference Include="Acr.UserDialogs">
-      <HintPath>..\packages\Acr.UserDialogs.6.0.0\lib\MonoAndroid10\Acr.UserDialogs.dll</HintPath>
+      <HintPath>..\packages\Acr.UserDialogs.6.0.1\lib\MonoAndroid10\Acr.UserDialogs.dll</HintPath>
     </Reference>
     <Reference Include="Acr.UserDialogs.Interface">
-      <HintPath>..\packages\Acr.UserDialogs.6.0.0\lib\MonoAndroid10\Acr.UserDialogs.Interface.dll</HintPath>
+      <HintPath>..\packages\Acr.UserDialogs.6.0.1\lib\MonoAndroid10\Acr.UserDialogs.Interface.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -49,13 +49,17 @@ namespace BasicScanner
 		}
 		#endregion
 
-		#region
+		#region Methods
 		public MasterPageViewModel(INavigation navigation)
 		{
 			_nav = navigation;
 			_currUser = App.PubUser;
-			_count = "Scans: " + App.Database.GetResults(_currUser).Count().ToString();
-			_lastScan = "Last scan: " + App.Database.GetResults(_currUser).Last().Date.ToString() + " " + App.Database.GetResults(_currUser).Last().Time.ToString();
+		}
+
+		public void Update()
+		{
+			Count = "Scans: " + App.Database.GetResults(_currUser).Count().ToString();
+			LastScan = "Last scan: " + App.Database.GetResults(_currUser).Last().Date.ToString() + " " + App.Database.GetResults(_currUser).Last().Time.ToString();
 		}
 		#endregion
 
@@ -83,17 +87,5 @@ namespace BasicScanner
 			await _nav.PushAsync(new ScannerPage(_nav));
 		}
 		#endregion
-
-
-		// TODO 
-		// Fix the messagingcenter to update the scans and last date on the main page 
-		public void YammyGang()
-		{
-			MessagingCenter.Subscribe<ScannerPage, string>(this, "Hi", (sender, arg) =>
-			{
-				_count = "Scans: " + App.Database.GetResults(_currUser).Count().ToString();
-				_lastScan = "Last scan: " + App.Database.GetResults(_currUser).Last().Date.ToString() + " " + App.Database.GetResults(_currUser).Last().Time.ToString();
-			});
-		}
 	}
 }

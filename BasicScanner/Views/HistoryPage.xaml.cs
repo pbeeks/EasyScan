@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace BasicScanner
@@ -19,6 +20,13 @@ namespace BasicScanner
 		public void HistorySelected(object sender, SelectedItemChangedEventArgs e) {
 			
  			Navigation.PushModalAsync(new HistoryDetailsPage(e.SelectedItem as ScanResult));
+		}
+
+		public void DeleteHistoryItem(object sender, EventArgs e)
+		{
+			var menuItem = ((MenuItem)sender);
+			ScanResult see = ((ScanResult)menuItem.CommandParameter);
+			_histVM.RemoveHistoryItem(see);
 		}
 	}
 }

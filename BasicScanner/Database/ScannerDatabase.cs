@@ -56,6 +56,10 @@ namespace BasicScanner
 				return false;
 			}
 		}
+
+		public void RemoveScanResult(ScanResult result) {
+			database.Delete<ScanResult>(result.UserID);
+		}
 	}
 }
 
