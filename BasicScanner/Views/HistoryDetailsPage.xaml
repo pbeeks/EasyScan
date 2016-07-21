@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicScanner.HistoryDetailsPage" Padding="0,20,0,0" >
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicScanner.HistoryDetailsPage" xmlns:i18n="clr-namespace:UsingResxLocalization;assembly=UsingResxLocalization" Padding="0,20,0,0" >
 	<ContentPage.Content>
 		<StackLayout Margin="20">
 			<ContentView Content="{Binding Barcode}" />
@@ -18,17 +18,17 @@
 				<ColumnDefinition Width="*" />
 				<ColumnDefinition Width="*" />
 			</Grid.ColumnDefinitions>
-			<Label Grid.Row="1" Grid.Column="0" Text="Date " />
-			<Label Grid.Row="2" Grid.Column="0" Text="Time " />
-			<Label Grid.Row="3" Grid.Column="0" Text="User " />
-			<Label Grid.Row="4" Grid.Column="0" Text="Format " />
-			<Label Grid.Row="5" Grid.Column="0" Text="Content" />
+			<Label Grid.Row="1" Grid.Column="0" Text=" " />
+			<Label Grid.Row="2" Grid.Column="0" Text="{i18n:TranslateExtension Text=DateLabel}" />
+			<Label Grid.Row="3" Grid.Column="0" Text="{i18n:TranslateExtension Text=UserLabel}" />
+			<Label Grid.Row="4" Grid.Column="0" Text="{i18n:TranslateExtension Text=FormatLabel}" />
+			<Label Grid.Row="5" Grid.Column="0" Text="{i18n:TranslateExtension Text=ContentLabel}" />
 			<Label Grid.Row="1" Grid.Column="1" Text="{Binding HistoryData.Date}" />
 			<Label Grid.Row="2" Grid.Column="1" Text="{Binding HistoryData.Time}" />
 			<Label Grid.Row="3" Grid.Column="1" Text="{Binding HistoryData.Owner.username}" />
 			<Label Grid.Row="4" Grid.Column="1" Text="{Binding HistoryData.Format}" />
 			<Label Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding HistoryData.Content}" HorizontalTextAlignment="Center" />
-			<Button Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Text="Close" Command="{Binding BackCommand}" />
+			<Button Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Text="{i18n:TranslateExtension Text=Close}" Command="{Binding BackCommand}" />
 		</Grid>
 			</StackLayout>
 	</ContentPage.Content>
