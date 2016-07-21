@@ -64,1554 +64,15 @@ namespace BasicScanner.Droid
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::BasicScanner.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::BasicScanner.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 			global::Splat.Resource.String.library_name = global::BasicScanner.Droid.Resource.String.library_name;
-			global::ZXing.Mobile.Resource.Id.contentFrame = global::BasicScanner.Droid.Resource.Id.contentFrame;
-			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::BasicScanner.Droid.Resource.Layout.zxingscanneractivitylayout;
-			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::BasicScanner.Droid.Resource.Layout.zxingscannerfragmentlayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.abc_fade_in = global::BasicScanner.Droid.Resource.Animation.abc_fade_in;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.abc_fade_out = global::BasicScanner.Droid.Resource.Animation.abc_fade_out;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::BasicScanner.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.abc_popup_enter = global::BasicScanner.Droid.Resource.Animation.abc_popup_enter;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.abc_popup_exit = global::BasicScanner.Droid.Resource.Animation.abc_popup_exit;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::BasicScanner.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.abc_slide_in_bottom = global::BasicScanner.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.abc_slide_in_top = global::BasicScanner.Droid.Resource.Animation.abc_slide_in_top;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.abc_slide_out_bottom = global::BasicScanner.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.abc_slide_out_top = global::BasicScanner.Droid.Resource.Animation.abc_slide_out_top;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.design_fab_in = global::BasicScanner.Droid.Resource.Animation.design_fab_in;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.design_fab_out = global::BasicScanner.Droid.Resource.Animation.design_fab_out;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.design_snackbar_in = global::BasicScanner.Droid.Resource.Animation.design_snackbar_in;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Animation.design_snackbar_out = global::BasicScanner.Droid.Resource.Animation.design_snackbar_out;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarDivider = global::BasicScanner.Droid.Resource.Attribute.actionBarDivider;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarItemBackground = global::BasicScanner.Droid.Resource.Attribute.actionBarItemBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarPopupTheme = global::BasicScanner.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarSize = global::BasicScanner.Droid.Resource.Attribute.actionBarSize;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarSplitStyle = global::BasicScanner.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarStyle = global::BasicScanner.Droid.Resource.Attribute.actionBarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarTabBarStyle = global::BasicScanner.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarTabStyle = global::BasicScanner.Droid.Resource.Attribute.actionBarTabStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarTabTextStyle = global::BasicScanner.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarTheme = global::BasicScanner.Droid.Resource.Attribute.actionBarTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionBarWidgetTheme = global::BasicScanner.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionButtonStyle = global::BasicScanner.Droid.Resource.Attribute.actionButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionDropDownStyle = global::BasicScanner.Droid.Resource.Attribute.actionDropDownStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionLayout = global::BasicScanner.Droid.Resource.Attribute.actionLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionMenuTextAppearance = global::BasicScanner.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionMenuTextColor = global::BasicScanner.Droid.Resource.Attribute.actionMenuTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeBackground = global::BasicScanner.Droid.Resource.Attribute.actionModeBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeCloseButtonStyle = global::BasicScanner.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeCloseDrawable = global::BasicScanner.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeCopyDrawable = global::BasicScanner.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeCutDrawable = global::BasicScanner.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeFindDrawable = global::BasicScanner.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModePasteDrawable = global::BasicScanner.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModePopupWindowStyle = global::BasicScanner.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeSelectAllDrawable = global::BasicScanner.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeShareDrawable = global::BasicScanner.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeSplitBackground = global::BasicScanner.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeStyle = global::BasicScanner.Droid.Resource.Attribute.actionModeStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionModeWebSearchDrawable = global::BasicScanner.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionOverflowButtonStyle = global::BasicScanner.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionOverflowMenuStyle = global::BasicScanner.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionProviderClass = global::BasicScanner.Droid.Resource.Attribute.actionProviderClass;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.actionViewClass = global::BasicScanner.Droid.Resource.Attribute.actionViewClass;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.activityChooserViewStyle = global::BasicScanner.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::BasicScanner.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.alertDialogCenterButtons = global::BasicScanner.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.alertDialogStyle = global::BasicScanner.Droid.Resource.Attribute.alertDialogStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.alertDialogTheme = global::BasicScanner.Droid.Resource.Attribute.alertDialogTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.arrowHeadLength = global::BasicScanner.Droid.Resource.Attribute.arrowHeadLength;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.arrowShaftLength = global::BasicScanner.Droid.Resource.Attribute.arrowShaftLength;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.autoCompleteTextViewStyle = global::BasicScanner.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.background = global::BasicScanner.Droid.Resource.Attribute.background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.backgroundSplit = global::BasicScanner.Droid.Resource.Attribute.backgroundSplit;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.backgroundStacked = global::BasicScanner.Droid.Resource.Attribute.backgroundStacked;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.backgroundTint = global::BasicScanner.Droid.Resource.Attribute.backgroundTint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.backgroundTintMode = global::BasicScanner.Droid.Resource.Attribute.backgroundTintMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.barLength = global::BasicScanner.Droid.Resource.Attribute.barLength;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.behavior_overlapTop = global::BasicScanner.Droid.Resource.Attribute.behavior_overlapTop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.borderWidth = global::BasicScanner.Droid.Resource.Attribute.borderWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.borderlessButtonStyle = global::BasicScanner.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.buttonBarButtonStyle = global::BasicScanner.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::BasicScanner.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::BasicScanner.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::BasicScanner.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.buttonBarStyle = global::BasicScanner.Droid.Resource.Attribute.buttonBarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.buttonPanelSideLayout = global::BasicScanner.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.buttonStyle = global::BasicScanner.Droid.Resource.Attribute.buttonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.buttonStyleSmall = global::BasicScanner.Droid.Resource.Attribute.buttonStyleSmall;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.buttonTint = global::BasicScanner.Droid.Resource.Attribute.buttonTint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.buttonTintMode = global::BasicScanner.Droid.Resource.Attribute.buttonTintMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.cardBackgroundColor = global::BasicScanner.Droid.Resource.Attribute.cardBackgroundColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.cardCornerRadius = global::BasicScanner.Droid.Resource.Attribute.cardCornerRadius;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.cardElevation = global::BasicScanner.Droid.Resource.Attribute.cardElevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.cardMaxElevation = global::BasicScanner.Droid.Resource.Attribute.cardMaxElevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.cardPreventCornerOverlap = global::BasicScanner.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.cardUseCompatPadding = global::BasicScanner.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.checkboxStyle = global::BasicScanner.Droid.Resource.Attribute.checkboxStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.checkedTextViewStyle = global::BasicScanner.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.closeIcon = global::BasicScanner.Droid.Resource.Attribute.closeIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.closeItemLayout = global::BasicScanner.Droid.Resource.Attribute.closeItemLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.collapseContentDescription = global::BasicScanner.Droid.Resource.Attribute.collapseContentDescription;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.collapseIcon = global::BasicScanner.Droid.Resource.Attribute.collapseIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.collapsedTitleGravity = global::BasicScanner.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.collapsedTitleTextAppearance = global::BasicScanner.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.color = global::BasicScanner.Droid.Resource.Attribute.color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.colorAccent = global::BasicScanner.Droid.Resource.Attribute.colorAccent;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.colorButtonNormal = global::BasicScanner.Droid.Resource.Attribute.colorButtonNormal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.colorControlActivated = global::BasicScanner.Droid.Resource.Attribute.colorControlActivated;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.colorControlHighlight = global::BasicScanner.Droid.Resource.Attribute.colorControlHighlight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.colorControlNormal = global::BasicScanner.Droid.Resource.Attribute.colorControlNormal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.colorPrimary = global::BasicScanner.Droid.Resource.Attribute.colorPrimary;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.colorPrimaryDark = global::BasicScanner.Droid.Resource.Attribute.colorPrimaryDark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.colorSwitchThumbNormal = global::BasicScanner.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.commitIcon = global::BasicScanner.Droid.Resource.Attribute.commitIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.contentInsetEnd = global::BasicScanner.Droid.Resource.Attribute.contentInsetEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.contentInsetLeft = global::BasicScanner.Droid.Resource.Attribute.contentInsetLeft;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.contentInsetRight = global::BasicScanner.Droid.Resource.Attribute.contentInsetRight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.contentInsetStart = global::BasicScanner.Droid.Resource.Attribute.contentInsetStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.contentPadding = global::BasicScanner.Droid.Resource.Attribute.contentPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.contentPaddingBottom = global::BasicScanner.Droid.Resource.Attribute.contentPaddingBottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.contentPaddingLeft = global::BasicScanner.Droid.Resource.Attribute.contentPaddingLeft;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.contentPaddingRight = global::BasicScanner.Droid.Resource.Attribute.contentPaddingRight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.contentPaddingTop = global::BasicScanner.Droid.Resource.Attribute.contentPaddingTop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.contentScrim = global::BasicScanner.Droid.Resource.Attribute.contentScrim;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.controlBackground = global::BasicScanner.Droid.Resource.Attribute.controlBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.customNavigationLayout = global::BasicScanner.Droid.Resource.Attribute.customNavigationLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.defaultQueryHint = global::BasicScanner.Droid.Resource.Attribute.defaultQueryHint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.dialogPreferredPadding = global::BasicScanner.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.dialogTheme = global::BasicScanner.Droid.Resource.Attribute.dialogTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.displayOptions = global::BasicScanner.Droid.Resource.Attribute.displayOptions;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.divider = global::BasicScanner.Droid.Resource.Attribute.divider;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.dividerHorizontal = global::BasicScanner.Droid.Resource.Attribute.dividerHorizontal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.dividerPadding = global::BasicScanner.Droid.Resource.Attribute.dividerPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.dividerVertical = global::BasicScanner.Droid.Resource.Attribute.dividerVertical;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.drawableSize = global::BasicScanner.Droid.Resource.Attribute.drawableSize;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.drawerArrowStyle = global::BasicScanner.Droid.Resource.Attribute.drawerArrowStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.dropDownListViewStyle = global::BasicScanner.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::BasicScanner.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.editTextBackground = global::BasicScanner.Droid.Resource.Attribute.editTextBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.editTextColor = global::BasicScanner.Droid.Resource.Attribute.editTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.editTextStyle = global::BasicScanner.Droid.Resource.Attribute.editTextStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.elevation = global::BasicScanner.Droid.Resource.Attribute.elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.errorEnabled = global::BasicScanner.Droid.Resource.Attribute.errorEnabled;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.errorTextAppearance = global::BasicScanner.Droid.Resource.Attribute.errorTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::BasicScanner.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.expanded = global::BasicScanner.Droid.Resource.Attribute.expanded;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.expandedTitleGravity = global::BasicScanner.Droid.Resource.Attribute.expandedTitleGravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.expandedTitleMargin = global::BasicScanner.Droid.Resource.Attribute.expandedTitleMargin;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.expandedTitleMarginBottom = global::BasicScanner.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.expandedTitleMarginEnd = global::BasicScanner.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.expandedTitleMarginStart = global::BasicScanner.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.expandedTitleMarginTop = global::BasicScanner.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.expandedTitleTextAppearance = global::BasicScanner.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.externalRouteEnabledDrawable = global::BasicScanner.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.fabSize = global::BasicScanner.Droid.Resource.Attribute.fabSize;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.gapBetweenBars = global::BasicScanner.Droid.Resource.Attribute.gapBetweenBars;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.goIcon = global::BasicScanner.Droid.Resource.Attribute.goIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.headerLayout = global::BasicScanner.Droid.Resource.Attribute.headerLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.height = global::BasicScanner.Droid.Resource.Attribute.height;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.hideOnContentScroll = global::BasicScanner.Droid.Resource.Attribute.hideOnContentScroll;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.hintAnimationEnabled = global::BasicScanner.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.hintTextAppearance = global::BasicScanner.Droid.Resource.Attribute.hintTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.homeAsUpIndicator = global::BasicScanner.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.homeLayout = global::BasicScanner.Droid.Resource.Attribute.homeLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.icon = global::BasicScanner.Droid.Resource.Attribute.icon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.iconifiedByDefault = global::BasicScanner.Droid.Resource.Attribute.iconifiedByDefault;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.indeterminateProgressStyle = global::BasicScanner.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.initialActivityCount = global::BasicScanner.Droid.Resource.Attribute.initialActivityCount;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.insetForeground = global::BasicScanner.Droid.Resource.Attribute.insetForeground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.isLightTheme = global::BasicScanner.Droid.Resource.Attribute.isLightTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.itemBackground = global::BasicScanner.Droid.Resource.Attribute.itemBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.itemIconTint = global::BasicScanner.Droid.Resource.Attribute.itemIconTint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.itemPadding = global::BasicScanner.Droid.Resource.Attribute.itemPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.itemTextAppearance = global::BasicScanner.Droid.Resource.Attribute.itemTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.itemTextColor = global::BasicScanner.Droid.Resource.Attribute.itemTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.keylines = global::BasicScanner.Droid.Resource.Attribute.keylines;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.layout = global::BasicScanner.Droid.Resource.Attribute.layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.layout_anchor = global::BasicScanner.Droid.Resource.Attribute.layout_anchor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.layout_anchorGravity = global::BasicScanner.Droid.Resource.Attribute.layout_anchorGravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.layout_behavior = global::BasicScanner.Droid.Resource.Attribute.layout_behavior;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.layout_collapseMode = global::BasicScanner.Droid.Resource.Attribute.layout_collapseMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::BasicScanner.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.layout_keyline = global::BasicScanner.Droid.Resource.Attribute.layout_keyline;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.layout_scrollFlags = global::BasicScanner.Droid.Resource.Attribute.layout_scrollFlags;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.layout_scrollInterpolator = global::BasicScanner.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::BasicScanner.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.listDividerAlertDialog = global::BasicScanner.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.listItemLayout = global::BasicScanner.Droid.Resource.Attribute.listItemLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.listLayout = global::BasicScanner.Droid.Resource.Attribute.listLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.listPopupWindowStyle = global::BasicScanner.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.listPreferredItemHeight = global::BasicScanner.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.listPreferredItemHeightLarge = global::BasicScanner.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.listPreferredItemHeightSmall = global::BasicScanner.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::BasicScanner.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.listPreferredItemPaddingRight = global::BasicScanner.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.logo = global::BasicScanner.Droid.Resource.Attribute.logo;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.logoDescription = global::BasicScanner.Droid.Resource.Attribute.logoDescription;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.maxActionInlineWidth = global::BasicScanner.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.maxButtonHeight = global::BasicScanner.Droid.Resource.Attribute.maxButtonHeight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.measureWithLargestChild = global::BasicScanner.Droid.Resource.Attribute.measureWithLargestChild;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.mediaRouteButtonStyle = global::BasicScanner.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.mediaRouteCastDrawable = global::BasicScanner.Droid.Resource.Attribute.mediaRouteCastDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.mediaRouteConnectingDrawable = global::BasicScanner.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.mediaRouteOffDrawable = global::BasicScanner.Droid.Resource.Attribute.mediaRouteOffDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.mediaRouteOnDrawable = global::BasicScanner.Droid.Resource.Attribute.mediaRouteOnDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.mediaRoutePauseDrawable = global::BasicScanner.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.mediaRoutePlayDrawable = global::BasicScanner.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.mediaRouteSettingsDrawable = global::BasicScanner.Droid.Resource.Attribute.mediaRouteSettingsDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.menu = global::BasicScanner.Droid.Resource.Attribute.menu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.multiChoiceItemLayout = global::BasicScanner.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.navigationContentDescription = global::BasicScanner.Droid.Resource.Attribute.navigationContentDescription;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.navigationIcon = global::BasicScanner.Droid.Resource.Attribute.navigationIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.navigationMode = global::BasicScanner.Droid.Resource.Attribute.navigationMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.overlapAnchor = global::BasicScanner.Droid.Resource.Attribute.overlapAnchor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.paddingEnd = global::BasicScanner.Droid.Resource.Attribute.paddingEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.paddingStart = global::BasicScanner.Droid.Resource.Attribute.paddingStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.panelBackground = global::BasicScanner.Droid.Resource.Attribute.panelBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.panelMenuListTheme = global::BasicScanner.Droid.Resource.Attribute.panelMenuListTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.panelMenuListWidth = global::BasicScanner.Droid.Resource.Attribute.panelMenuListWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.popupMenuStyle = global::BasicScanner.Droid.Resource.Attribute.popupMenuStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.popupTheme = global::BasicScanner.Droid.Resource.Attribute.popupTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.popupWindowStyle = global::BasicScanner.Droid.Resource.Attribute.popupWindowStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.preserveIconSpacing = global::BasicScanner.Droid.Resource.Attribute.preserveIconSpacing;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.pressedTranslationZ = global::BasicScanner.Droid.Resource.Attribute.pressedTranslationZ;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.progressBarPadding = global::BasicScanner.Droid.Resource.Attribute.progressBarPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.progressBarStyle = global::BasicScanner.Droid.Resource.Attribute.progressBarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.queryBackground = global::BasicScanner.Droid.Resource.Attribute.queryBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.queryHint = global::BasicScanner.Droid.Resource.Attribute.queryHint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.radioButtonStyle = global::BasicScanner.Droid.Resource.Attribute.radioButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.ratingBarStyle = global::BasicScanner.Droid.Resource.Attribute.ratingBarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.rippleColor = global::BasicScanner.Droid.Resource.Attribute.rippleColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.searchHintIcon = global::BasicScanner.Droid.Resource.Attribute.searchHintIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.searchIcon = global::BasicScanner.Droid.Resource.Attribute.searchIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.searchViewStyle = global::BasicScanner.Droid.Resource.Attribute.searchViewStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.selectableItemBackground = global::BasicScanner.Droid.Resource.Attribute.selectableItemBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::BasicScanner.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.showAsAction = global::BasicScanner.Droid.Resource.Attribute.showAsAction;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.showDividers = global::BasicScanner.Droid.Resource.Attribute.showDividers;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.showText = global::BasicScanner.Droid.Resource.Attribute.showText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.singleChoiceItemLayout = global::BasicScanner.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.spinBars = global::BasicScanner.Droid.Resource.Attribute.spinBars;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.spinnerDropDownItemStyle = global::BasicScanner.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.spinnerStyle = global::BasicScanner.Droid.Resource.Attribute.spinnerStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.splitTrack = global::BasicScanner.Droid.Resource.Attribute.splitTrack;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.state_above_anchor = global::BasicScanner.Droid.Resource.Attribute.state_above_anchor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.statusBarBackground = global::BasicScanner.Droid.Resource.Attribute.statusBarBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.statusBarScrim = global::BasicScanner.Droid.Resource.Attribute.statusBarScrim;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.submitBackground = global::BasicScanner.Droid.Resource.Attribute.submitBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.subtitle = global::BasicScanner.Droid.Resource.Attribute.subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.subtitleTextAppearance = global::BasicScanner.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.subtitleTextColor = global::BasicScanner.Droid.Resource.Attribute.subtitleTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.subtitleTextStyle = global::BasicScanner.Droid.Resource.Attribute.subtitleTextStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.suggestionRowLayout = global::BasicScanner.Droid.Resource.Attribute.suggestionRowLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.switchMinWidth = global::BasicScanner.Droid.Resource.Attribute.switchMinWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.switchPadding = global::BasicScanner.Droid.Resource.Attribute.switchPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.switchStyle = global::BasicScanner.Droid.Resource.Attribute.switchStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.switchTextAppearance = global::BasicScanner.Droid.Resource.Attribute.switchTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabBackground = global::BasicScanner.Droid.Resource.Attribute.tabBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabContentStart = global::BasicScanner.Droid.Resource.Attribute.tabContentStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabGravity = global::BasicScanner.Droid.Resource.Attribute.tabGravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabIndicatorColor = global::BasicScanner.Droid.Resource.Attribute.tabIndicatorColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabIndicatorHeight = global::BasicScanner.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabMaxWidth = global::BasicScanner.Droid.Resource.Attribute.tabMaxWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabMinWidth = global::BasicScanner.Droid.Resource.Attribute.tabMinWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabMode = global::BasicScanner.Droid.Resource.Attribute.tabMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabPadding = global::BasicScanner.Droid.Resource.Attribute.tabPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabPaddingBottom = global::BasicScanner.Droid.Resource.Attribute.tabPaddingBottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabPaddingEnd = global::BasicScanner.Droid.Resource.Attribute.tabPaddingEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabPaddingStart = global::BasicScanner.Droid.Resource.Attribute.tabPaddingStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabPaddingTop = global::BasicScanner.Droid.Resource.Attribute.tabPaddingTop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabSelectedTextColor = global::BasicScanner.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabTextAppearance = global::BasicScanner.Droid.Resource.Attribute.tabTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.tabTextColor = global::BasicScanner.Droid.Resource.Attribute.tabTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.textAllCaps = global::BasicScanner.Droid.Resource.Attribute.textAllCaps;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::BasicScanner.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.textAppearanceListItem = global::BasicScanner.Droid.Resource.Attribute.textAppearanceListItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.textAppearanceListItemSmall = global::BasicScanner.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::BasicScanner.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::BasicScanner.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::BasicScanner.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.textColorAlertDialogListItem = global::BasicScanner.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.textColorSearchUrl = global::BasicScanner.Droid.Resource.Attribute.textColorSearchUrl;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.theme = global::BasicScanner.Droid.Resource.Attribute.theme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.thickness = global::BasicScanner.Droid.Resource.Attribute.thickness;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.thumbTextPadding = global::BasicScanner.Droid.Resource.Attribute.thumbTextPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.title = global::BasicScanner.Droid.Resource.Attribute.title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.titleEnabled = global::BasicScanner.Droid.Resource.Attribute.titleEnabled;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.titleMarginBottom = global::BasicScanner.Droid.Resource.Attribute.titleMarginBottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.titleMarginEnd = global::BasicScanner.Droid.Resource.Attribute.titleMarginEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.titleMarginStart = global::BasicScanner.Droid.Resource.Attribute.titleMarginStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.titleMarginTop = global::BasicScanner.Droid.Resource.Attribute.titleMarginTop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.titleMargins = global::BasicScanner.Droid.Resource.Attribute.titleMargins;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.titleTextAppearance = global::BasicScanner.Droid.Resource.Attribute.titleTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.titleTextColor = global::BasicScanner.Droid.Resource.Attribute.titleTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.titleTextStyle = global::BasicScanner.Droid.Resource.Attribute.titleTextStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.toolbarId = global::BasicScanner.Droid.Resource.Attribute.toolbarId;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::BasicScanner.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.toolbarStyle = global::BasicScanner.Droid.Resource.Attribute.toolbarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.track = global::BasicScanner.Droid.Resource.Attribute.track;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.voiceIcon = global::BasicScanner.Droid.Resource.Attribute.voiceIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.windowActionBar = global::BasicScanner.Droid.Resource.Attribute.windowActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.windowActionBarOverlay = global::BasicScanner.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.windowActionModeOverlay = global::BasicScanner.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.windowFixedHeightMajor = global::BasicScanner.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.windowFixedHeightMinor = global::BasicScanner.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.windowFixedWidthMajor = global::BasicScanner.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.windowFixedWidthMinor = global::BasicScanner.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.windowMinWidthMajor = global::BasicScanner.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.windowMinWidthMinor = global::BasicScanner.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Attribute.windowNoTitle = global::BasicScanner.Droid.Resource.Attribute.windowNoTitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::BasicScanner.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::BasicScanner.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::BasicScanner.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::BasicScanner.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::BasicScanner.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::BasicScanner.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::BasicScanner.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::BasicScanner.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::BasicScanner.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_color_highlight_material = global::BasicScanner.Droid.Resource.Color.abc_color_highlight_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_input_method_navigation_guard = global::BasicScanner.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::BasicScanner.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::BasicScanner.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_primary_text_material_dark = global::BasicScanner.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_primary_text_material_light = global::BasicScanner.Droid.Resource.Color.abc_primary_text_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_search_url_text = global::BasicScanner.Droid.Resource.Color.abc_search_url_text;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_search_url_text_normal = global::BasicScanner.Droid.Resource.Color.abc_search_url_text_normal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_search_url_text_pressed = global::BasicScanner.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_search_url_text_selected = global::BasicScanner.Droid.Resource.Color.abc_search_url_text_selected;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_secondary_text_material_dark = global::BasicScanner.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.abc_secondary_text_material_light = global::BasicScanner.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.accent_material_dark = global::BasicScanner.Droid.Resource.Color.accent_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.accent_material_light = global::BasicScanner.Droid.Resource.Color.accent_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.background_floating_material_dark = global::BasicScanner.Droid.Resource.Color.background_floating_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.background_floating_material_light = global::BasicScanner.Droid.Resource.Color.background_floating_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.background_material_dark = global::BasicScanner.Droid.Resource.Color.background_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.background_material_light = global::BasicScanner.Droid.Resource.Color.background_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.bright_foreground_disabled_material_dark = global::BasicScanner.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.bright_foreground_disabled_material_light = global::BasicScanner.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.bright_foreground_inverse_material_dark = global::BasicScanner.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.bright_foreground_inverse_material_light = global::BasicScanner.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.bright_foreground_material_dark = global::BasicScanner.Droid.Resource.Color.bright_foreground_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.bright_foreground_material_light = global::BasicScanner.Droid.Resource.Color.bright_foreground_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.button_material_dark = global::BasicScanner.Droid.Resource.Color.button_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.button_material_light = global::BasicScanner.Droid.Resource.Color.button_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.cardview_dark_background = global::BasicScanner.Droid.Resource.Color.cardview_dark_background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.cardview_light_background = global::BasicScanner.Droid.Resource.Color.cardview_light_background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.cardview_shadow_end_color = global::BasicScanner.Droid.Resource.Color.cardview_shadow_end_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.cardview_shadow_start_color = global::BasicScanner.Droid.Resource.Color.cardview_shadow_start_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.design_fab_shadow_end_color = global::BasicScanner.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.design_fab_shadow_mid_color = global::BasicScanner.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.design_fab_shadow_start_color = global::BasicScanner.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.design_fab_stroke_end_inner_color = global::BasicScanner.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.design_fab_stroke_end_outer_color = global::BasicScanner.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.design_fab_stroke_top_inner_color = global::BasicScanner.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.design_fab_stroke_top_outer_color = global::BasicScanner.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.design_snackbar_background_color = global::BasicScanner.Droid.Resource.Color.design_snackbar_background_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.design_textinput_error_color = global::BasicScanner.Droid.Resource.Color.design_textinput_error_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.dim_foreground_disabled_material_dark = global::BasicScanner.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.dim_foreground_disabled_material_light = global::BasicScanner.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.dim_foreground_material_dark = global::BasicScanner.Droid.Resource.Color.dim_foreground_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.dim_foreground_material_light = global::BasicScanner.Droid.Resource.Color.dim_foreground_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.foreground_material_dark = global::BasicScanner.Droid.Resource.Color.foreground_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.foreground_material_light = global::BasicScanner.Droid.Resource.Color.foreground_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.highlighted_text_material_dark = global::BasicScanner.Droid.Resource.Color.highlighted_text_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.highlighted_text_material_light = global::BasicScanner.Droid.Resource.Color.highlighted_text_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.hint_foreground_material_dark = global::BasicScanner.Droid.Resource.Color.hint_foreground_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.hint_foreground_material_light = global::BasicScanner.Droid.Resource.Color.hint_foreground_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_blue_grey_800 = global::BasicScanner.Droid.Resource.Color.material_blue_grey_800;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_blue_grey_900 = global::BasicScanner.Droid.Resource.Color.material_blue_grey_900;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_blue_grey_950 = global::BasicScanner.Droid.Resource.Color.material_blue_grey_950;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_deep_teal_200 = global::BasicScanner.Droid.Resource.Color.material_deep_teal_200;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_deep_teal_500 = global::BasicScanner.Droid.Resource.Color.material_deep_teal_500;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_grey_100 = global::BasicScanner.Droid.Resource.Color.material_grey_100;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_grey_300 = global::BasicScanner.Droid.Resource.Color.material_grey_300;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_grey_50 = global::BasicScanner.Droid.Resource.Color.material_grey_50;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_grey_600 = global::BasicScanner.Droid.Resource.Color.material_grey_600;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_grey_800 = global::BasicScanner.Droid.Resource.Color.material_grey_800;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_grey_850 = global::BasicScanner.Droid.Resource.Color.material_grey_850;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.material_grey_900 = global::BasicScanner.Droid.Resource.Color.material_grey_900;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.primary_dark_material_dark = global::BasicScanner.Droid.Resource.Color.primary_dark_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.primary_dark_material_light = global::BasicScanner.Droid.Resource.Color.primary_dark_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.primary_material_dark = global::BasicScanner.Droid.Resource.Color.primary_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.primary_material_light = global::BasicScanner.Droid.Resource.Color.primary_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.primary_text_default_material_dark = global::BasicScanner.Droid.Resource.Color.primary_text_default_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.primary_text_default_material_light = global::BasicScanner.Droid.Resource.Color.primary_text_default_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.primary_text_disabled_material_dark = global::BasicScanner.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.primary_text_disabled_material_light = global::BasicScanner.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.ripple_material_dark = global::BasicScanner.Droid.Resource.Color.ripple_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.ripple_material_light = global::BasicScanner.Droid.Resource.Color.ripple_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.secondary_text_default_material_dark = global::BasicScanner.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.secondary_text_default_material_light = global::BasicScanner.Droid.Resource.Color.secondary_text_default_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.secondary_text_disabled_material_dark = global::BasicScanner.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.secondary_text_disabled_material_light = global::BasicScanner.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.switch_thumb_disabled_material_dark = global::BasicScanner.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.switch_thumb_disabled_material_light = global::BasicScanner.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.switch_thumb_material_dark = global::BasicScanner.Droid.Resource.Color.switch_thumb_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.switch_thumb_material_light = global::BasicScanner.Droid.Resource.Color.switch_thumb_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.switch_thumb_normal_material_dark = global::BasicScanner.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Color.switch_thumb_normal_material_light = global::BasicScanner.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_default_height_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_button_min_height_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_button_min_width_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::BasicScanner.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::BasicScanner.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::BasicScanner.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_button_inset_vertical_material = global::BasicScanner.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::BasicScanner.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_button_padding_vertical_material = global::BasicScanner.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_config_prefDialogWidth = global::BasicScanner.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_control_corner_material = global::BasicScanner.Droid.Resource.Dimension.abc_control_corner_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_control_inset_material = global::BasicScanner.Droid.Resource.Dimension.abc_control_inset_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_control_padding_material = global::BasicScanner.Droid.Resource.Dimension.abc_control_padding_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::BasicScanner.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_dialog_min_width_major = global::BasicScanner.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_dialog_min_width_minor = global::BasicScanner.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_dialog_padding_material = global::BasicScanner.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_dialog_padding_top_material = global::BasicScanner.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::BasicScanner.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::BasicScanner.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::BasicScanner.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::BasicScanner.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::BasicScanner.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::BasicScanner.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::BasicScanner.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::BasicScanner.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_floating_window_z = global::BasicScanner.Droid.Resource.Dimension.abc_floating_window_z;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::BasicScanner.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_panel_menu_list_width = global::BasicScanner.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_search_view_preferred_width = global::BasicScanner.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_search_view_text_min_width = global::BasicScanner.Droid.Resource.Dimension.abc_search_view_text_min_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_switch_padding = global::BasicScanner.Droid.Resource.Dimension.abc_switch_padding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_body_1_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_body_2_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_button_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_caption_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_display_1_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_display_2_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_display_3_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_display_4_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_headline_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_large_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_medium_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_menu_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_small_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_subhead_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_title_material = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::BasicScanner.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.cardview_compat_inset_shadow = global::BasicScanner.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.cardview_default_elevation = global::BasicScanner.Droid.Resource.Dimension.cardview_default_elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.cardview_default_radius = global::BasicScanner.Droid.Resource.Dimension.cardview_default_radius;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_appbar_elevation = global::BasicScanner.Droid.Resource.Dimension.design_appbar_elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_fab_border_width = global::BasicScanner.Droid.Resource.Dimension.design_fab_border_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_fab_content_size = global::BasicScanner.Droid.Resource.Dimension.design_fab_content_size;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_fab_elevation = global::BasicScanner.Droid.Resource.Dimension.design_fab_elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_fab_size_mini = global::BasicScanner.Droid.Resource.Dimension.design_fab_size_mini;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_fab_size_normal = global::BasicScanner.Droid.Resource.Dimension.design_fab_size_normal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_fab_translation_z_pressed = global::BasicScanner.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_navigation_elevation = global::BasicScanner.Droid.Resource.Dimension.design_navigation_elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_navigation_icon_padding = global::BasicScanner.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_navigation_icon_size = global::BasicScanner.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_navigation_max_width = global::BasicScanner.Droid.Resource.Dimension.design_navigation_max_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_navigation_padding_bottom = global::BasicScanner.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_navigation_padding_top_default = global::BasicScanner.Droid.Resource.Dimension.design_navigation_padding_top_default;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::BasicScanner.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::BasicScanner.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::BasicScanner.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_snackbar_elevation = global::BasicScanner.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::BasicScanner.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_snackbar_max_width = global::BasicScanner.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_snackbar_min_width = global::BasicScanner.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::BasicScanner.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical = global::BasicScanner.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::BasicScanner.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_snackbar_text_size = global::BasicScanner.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_tab_max_width = global::BasicScanner.Droid.Resource.Dimension.design_tab_max_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.design_tab_min_width = global::BasicScanner.Droid.Resource.Dimension.design_tab_min_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.dialog_fixed_height_major = global::BasicScanner.Droid.Resource.Dimension.dialog_fixed_height_major;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.dialog_fixed_height_minor = global::BasicScanner.Droid.Resource.Dimension.dialog_fixed_height_minor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.dialog_fixed_width_major = global::BasicScanner.Droid.Resource.Dimension.dialog_fixed_width_major;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.dialog_fixed_width_minor = global::BasicScanner.Droid.Resource.Dimension.dialog_fixed_width_minor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.disabled_alpha_material_dark = global::BasicScanner.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.disabled_alpha_material_light = global::BasicScanner.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.highlight_alpha_material_colored = global::BasicScanner.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.highlight_alpha_material_dark = global::BasicScanner.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.highlight_alpha_material_light = global::BasicScanner.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.mr_media_route_controller_art_max_height = global::BasicScanner.Droid.Resource.Dimension.mr_media_route_controller_art_max_height;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.notification_large_icon_height = global::BasicScanner.Droid.Resource.Dimension.notification_large_icon_height;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.notification_large_icon_width = global::BasicScanner.Droid.Resource.Dimension.notification_large_icon_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Dimension.notification_subtext_size = global::BasicScanner.Droid.Resource.Dimension.notification_subtext_size;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_action_bar_item_background_material = global::BasicScanner.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_borderless_material = global::BasicScanner.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_check_material = global::BasicScanner.Droid.Resource.Drawable.abc_btn_check_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::BasicScanner.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::BasicScanner.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_colored_material = global::BasicScanner.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::BasicScanner.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_radio_material = global::BasicScanner.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::BasicScanner.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::BasicScanner.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::BasicScanner.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::BasicScanner.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_cab_background_internal_bg = global::BasicScanner.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_cab_background_top_material = global::BasicScanner.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_control_background_material = global::BasicScanner.Droid.Resource.Drawable.abc_control_background_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_dialog_material_background_dark = global::BasicScanner.Droid.Resource.Drawable.abc_dialog_material_background_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_dialog_material_background_light = global::BasicScanner.Droid.Resource.Drawable.abc_dialog_material_background_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_edit_text_material = global::BasicScanner.Droid.Resource.Drawable.abc_edit_text_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_item_background_holo_dark = global::BasicScanner.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_item_background_holo_light = global::BasicScanner.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_focused_holo = global::BasicScanner.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_longpressed_holo = global::BasicScanner.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::BasicScanner.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_pressed_holo_light = global::BasicScanner.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::BasicScanner.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::BasicScanner.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::BasicScanner.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::BasicScanner.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_selector_holo_dark = global::BasicScanner.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_list_selector_holo_light = global::BasicScanner.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::BasicScanner.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::BasicScanner.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_ratingbar_full_material = global::BasicScanner.Droid.Resource.Drawable.abc_ratingbar_full_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::BasicScanner.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_switch_thumb_material = global::BasicScanner.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_tab_indicator_material = global::BasicScanner.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_text_cursor_material = global::BasicScanner.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::BasicScanner.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.abc_textfield_search_material = global::BasicScanner.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.design_fab_background = global::BasicScanner.Droid.Resource.Drawable.design_fab_background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.design_snackbar_background = global::BasicScanner.Droid.Resource.Drawable.design_snackbar_background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_cast_dark = global::BasicScanner.Droid.Resource.Drawable.ic_cast_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_cast_disabled_light = global::BasicScanner.Droid.Resource.Drawable.ic_cast_disabled_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_cast_light = global::BasicScanner.Droid.Resource.Drawable.ic_cast_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_cast_off_light = global::BasicScanner.Droid.Resource.Drawable.ic_cast_off_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_cast_on_0_light = global::BasicScanner.Droid.Resource.Drawable.ic_cast_on_0_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_cast_on_1_light = global::BasicScanner.Droid.Resource.Drawable.ic_cast_on_1_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_cast_on_2_light = global::BasicScanner.Droid.Resource.Drawable.ic_cast_on_2_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_cast_on_light = global::BasicScanner.Droid.Resource.Drawable.ic_cast_on_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_media_pause = global::BasicScanner.Droid.Resource.Drawable.ic_media_pause;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_media_play = global::BasicScanner.Droid.Resource.Drawable.ic_media_play;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_media_route_disabled_mono_dark = global::BasicScanner.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_media_route_off_mono_dark = global::BasicScanner.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_media_route_on_0_mono_dark = global::BasicScanner.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_media_route_on_1_mono_dark = global::BasicScanner.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_media_route_on_2_mono_dark = global::BasicScanner.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_media_route_on_mono_dark = global::BasicScanner.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_pause_dark = global::BasicScanner.Droid.Resource.Drawable.ic_pause_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_pause_light = global::BasicScanner.Droid.Resource.Drawable.ic_pause_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_play_dark = global::BasicScanner.Droid.Resource.Drawable.ic_play_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_play_light = global::BasicScanner.Droid.Resource.Drawable.ic_play_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_setting_dark = global::BasicScanner.Droid.Resource.Drawable.ic_setting_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.ic_setting_light = global::BasicScanner.Droid.Resource.Drawable.ic_setting_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_cast_dark = global::BasicScanner.Droid.Resource.Drawable.mr_ic_cast_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_cast_light = global::BasicScanner.Droid.Resource.Drawable.mr_ic_cast_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::BasicScanner.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::BasicScanner.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_media_route_mono_dark = global::BasicScanner.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_media_route_mono_light = global::BasicScanner.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_pause_dark = global::BasicScanner.Droid.Resource.Drawable.mr_ic_pause_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_pause_light = global::BasicScanner.Droid.Resource.Drawable.mr_ic_pause_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_play_dark = global::BasicScanner.Droid.Resource.Drawable.mr_ic_play_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_play_light = global::BasicScanner.Droid.Resource.Drawable.mr_ic_play_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_settings_dark = global::BasicScanner.Droid.Resource.Drawable.mr_ic_settings_dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.mr_ic_settings_light = global::BasicScanner.Droid.Resource.Drawable.mr_ic_settings_light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Drawable.notification_template_icon_bg = global::BasicScanner.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action0 = global::BasicScanner.Droid.Resource.Id.action0;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_bar = global::BasicScanner.Droid.Resource.Id.action_bar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_bar_activity_content = global::BasicScanner.Droid.Resource.Id.action_bar_activity_content;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_bar_container = global::BasicScanner.Droid.Resource.Id.action_bar_container;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_bar_root = global::BasicScanner.Droid.Resource.Id.action_bar_root;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_bar_spinner = global::BasicScanner.Droid.Resource.Id.action_bar_spinner;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_bar_subtitle = global::BasicScanner.Droid.Resource.Id.action_bar_subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_bar_title = global::BasicScanner.Droid.Resource.Id.action_bar_title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_context_bar = global::BasicScanner.Droid.Resource.Id.action_context_bar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_divider = global::BasicScanner.Droid.Resource.Id.action_divider;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_menu_divider = global::BasicScanner.Droid.Resource.Id.action_menu_divider;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_menu_presenter = global::BasicScanner.Droid.Resource.Id.action_menu_presenter;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_mode_bar = global::BasicScanner.Droid.Resource.Id.action_mode_bar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_mode_bar_stub = global::BasicScanner.Droid.Resource.Id.action_mode_bar_stub;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.action_mode_close_button = global::BasicScanner.Droid.Resource.Id.action_mode_close_button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.activity_chooser_view_content = global::BasicScanner.Droid.Resource.Id.activity_chooser_view_content;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.alertTitle = global::BasicScanner.Droid.Resource.Id.alertTitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.always = global::BasicScanner.Droid.Resource.Id.always;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.art = global::BasicScanner.Droid.Resource.Id.art;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.beginning = global::BasicScanner.Droid.Resource.Id.beginning;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.bottom = global::BasicScanner.Droid.Resource.Id.bottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.buttonPanel = global::BasicScanner.Droid.Resource.Id.buttonPanel;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.buttons = global::BasicScanner.Droid.Resource.Id.buttons;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.cancel_action = global::BasicScanner.Droid.Resource.Id.cancel_action;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.center = global::BasicScanner.Droid.Resource.Id.center;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.center_horizontal = global::BasicScanner.Droid.Resource.Id.center_horizontal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.center_vertical = global::BasicScanner.Droid.Resource.Id.center_vertical;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.checkbox = global::BasicScanner.Droid.Resource.Id.checkbox;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.chronometer = global::BasicScanner.Droid.Resource.Id.chronometer;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.clip_horizontal = global::BasicScanner.Droid.Resource.Id.clip_horizontal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.clip_vertical = global::BasicScanner.Droid.Resource.Id.clip_vertical;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.collapseActionView = global::BasicScanner.Droid.Resource.Id.collapseActionView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.contentFrame = global::BasicScanner.Droid.Resource.Id.contentFrame;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.contentPanel = global::BasicScanner.Droid.Resource.Id.contentPanel;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.custom = global::BasicScanner.Droid.Resource.Id.custom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.customPanel = global::BasicScanner.Droid.Resource.Id.customPanel;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.decor_content_parent = global::BasicScanner.Droid.Resource.Id.decor_content_parent;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.default_activity_button = global::BasicScanner.Droid.Resource.Id.default_activity_button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.default_control_frame = global::BasicScanner.Droid.Resource.Id.default_control_frame;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.disableHome = global::BasicScanner.Droid.Resource.Id.disableHome;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.disconnect = global::BasicScanner.Droid.Resource.Id.disconnect;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.edit_query = global::BasicScanner.Droid.Resource.Id.edit_query;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.end = global::BasicScanner.Droid.Resource.Id.end;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.end_padder = global::BasicScanner.Droid.Resource.Id.end_padder;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.enterAlways = global::BasicScanner.Droid.Resource.Id.enterAlways;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.enterAlwaysCollapsed = global::BasicScanner.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.exitUntilCollapsed = global::BasicScanner.Droid.Resource.Id.exitUntilCollapsed;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.expand_activities_button = global::BasicScanner.Droid.Resource.Id.expand_activities_button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.expanded_menu = global::BasicScanner.Droid.Resource.Id.expanded_menu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.fill = global::BasicScanner.Droid.Resource.Id.fill;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.fill_horizontal = global::BasicScanner.Droid.Resource.Id.fill_horizontal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.fill_vertical = global::BasicScanner.Droid.Resource.Id.fill_vertical;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.@fixed = global::BasicScanner.Droid.Resource.Id.@fixed;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.home = global::BasicScanner.Droid.Resource.Id.home;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.homeAsUp = global::BasicScanner.Droid.Resource.Id.homeAsUp;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.icon = global::BasicScanner.Droid.Resource.Id.icon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.ifRoom = global::BasicScanner.Droid.Resource.Id.ifRoom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.image = global::BasicScanner.Droid.Resource.Id.image;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.info = global::BasicScanner.Droid.Resource.Id.info;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.left = global::BasicScanner.Droid.Resource.Id.left;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.line1 = global::BasicScanner.Droid.Resource.Id.line1;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.line3 = global::BasicScanner.Droid.Resource.Id.line3;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.listMode = global::BasicScanner.Droid.Resource.Id.listMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.list_item = global::BasicScanner.Droid.Resource.Id.list_item;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.media_actions = global::BasicScanner.Droid.Resource.Id.media_actions;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.media_route_control_frame = global::BasicScanner.Droid.Resource.Id.media_route_control_frame;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.media_route_list = global::BasicScanner.Droid.Resource.Id.media_route_list;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.media_route_volume_layout = global::BasicScanner.Droid.Resource.Id.media_route_volume_layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.media_route_volume_slider = global::BasicScanner.Droid.Resource.Id.media_route_volume_slider;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.middle = global::BasicScanner.Droid.Resource.Id.middle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.mini = global::BasicScanner.Droid.Resource.Id.mini;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.multiply = global::BasicScanner.Droid.Resource.Id.multiply;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.never = global::BasicScanner.Droid.Resource.Id.never;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.none = global::BasicScanner.Droid.Resource.Id.none;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.normal = global::BasicScanner.Droid.Resource.Id.normal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.parallax = global::BasicScanner.Droid.Resource.Id.parallax;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.parentPanel = global::BasicScanner.Droid.Resource.Id.parentPanel;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.pin = global::BasicScanner.Droid.Resource.Id.pin;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.play_pause = global::BasicScanner.Droid.Resource.Id.play_pause;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.progress_circular = global::BasicScanner.Droid.Resource.Id.progress_circular;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.progress_horizontal = global::BasicScanner.Droid.Resource.Id.progress_horizontal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.radio = global::BasicScanner.Droid.Resource.Id.radio;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.right = global::BasicScanner.Droid.Resource.Id.right;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.route_name = global::BasicScanner.Droid.Resource.Id.route_name;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.screen = global::BasicScanner.Droid.Resource.Id.screen;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.scroll = global::BasicScanner.Droid.Resource.Id.scroll;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.scrollView = global::BasicScanner.Droid.Resource.Id.scrollView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.scrollable = global::BasicScanner.Droid.Resource.Id.scrollable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.search_badge = global::BasicScanner.Droid.Resource.Id.search_badge;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.search_bar = global::BasicScanner.Droid.Resource.Id.search_bar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.search_button = global::BasicScanner.Droid.Resource.Id.search_button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.search_close_btn = global::BasicScanner.Droid.Resource.Id.search_close_btn;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.search_edit_frame = global::BasicScanner.Droid.Resource.Id.search_edit_frame;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.search_go_btn = global::BasicScanner.Droid.Resource.Id.search_go_btn;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.search_mag_icon = global::BasicScanner.Droid.Resource.Id.search_mag_icon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.search_plate = global::BasicScanner.Droid.Resource.Id.search_plate;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.search_src_text = global::BasicScanner.Droid.Resource.Id.search_src_text;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.search_voice_btn = global::BasicScanner.Droid.Resource.Id.search_voice_btn;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.select_dialog_listview = global::BasicScanner.Droid.Resource.Id.select_dialog_listview;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.settings = global::BasicScanner.Droid.Resource.Id.settings;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.shortcut = global::BasicScanner.Droid.Resource.Id.shortcut;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.showCustom = global::BasicScanner.Droid.Resource.Id.showCustom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.showHome = global::BasicScanner.Droid.Resource.Id.showHome;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.showTitle = global::BasicScanner.Droid.Resource.Id.showTitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.snackbar_action = global::BasicScanner.Droid.Resource.Id.snackbar_action;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.snackbar_text = global::BasicScanner.Droid.Resource.Id.snackbar_text;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.split_action_bar = global::BasicScanner.Droid.Resource.Id.split_action_bar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.src_atop = global::BasicScanner.Droid.Resource.Id.src_atop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.src_in = global::BasicScanner.Droid.Resource.Id.src_in;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.src_over = global::BasicScanner.Droid.Resource.Id.src_over;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.start = global::BasicScanner.Droid.Resource.Id.start;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.status_bar_latest_event_content = global::BasicScanner.Droid.Resource.Id.status_bar_latest_event_content;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.stop = global::BasicScanner.Droid.Resource.Id.stop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.submit_area = global::BasicScanner.Droid.Resource.Id.submit_area;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.subtitle = global::BasicScanner.Droid.Resource.Id.subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.tabMode = global::BasicScanner.Droid.Resource.Id.tabMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.text = global::BasicScanner.Droid.Resource.Id.text;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.text2 = global::BasicScanner.Droid.Resource.Id.text2;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.textSpacerNoButtons = global::BasicScanner.Droid.Resource.Id.textSpacerNoButtons;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.time = global::BasicScanner.Droid.Resource.Id.time;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.title = global::BasicScanner.Droid.Resource.Id.title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.title_bar = global::BasicScanner.Droid.Resource.Id.title_bar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.title_template = global::BasicScanner.Droid.Resource.Id.title_template;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.top = global::BasicScanner.Droid.Resource.Id.top;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.topPanel = global::BasicScanner.Droid.Resource.Id.topPanel;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.up = global::BasicScanner.Droid.Resource.Id.up;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.useLogo = global::BasicScanner.Droid.Resource.Id.useLogo;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.view_offset_helper = global::BasicScanner.Droid.Resource.Id.view_offset_helper;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.withText = global::BasicScanner.Droid.Resource.Id.withText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Id.wrap_content = global::BasicScanner.Droid.Resource.Id.wrap_content;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Integer.abc_config_activityDefaultDur = global::BasicScanner.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Integer.abc_config_activityShortDur = global::BasicScanner.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Integer.abc_max_action_buttons = global::BasicScanner.Droid.Resource.Integer.abc_max_action_buttons;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Integer.cancel_button_image_alpha = global::BasicScanner.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Integer.design_snackbar_text_max_lines = global::BasicScanner.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Integer.status_bar_notification_info_maxnum = global::BasicScanner.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_action_bar_title_item = global::BasicScanner.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_action_bar_up_container = global::BasicScanner.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::BasicScanner.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_action_menu_item_layout = global::BasicScanner.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_action_menu_layout = global::BasicScanner.Droid.Resource.Layout.abc_action_menu_layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_action_mode_bar = global::BasicScanner.Droid.Resource.Layout.abc_action_mode_bar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_action_mode_close_item_material = global::BasicScanner.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_activity_chooser_view = global::BasicScanner.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::BasicScanner.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_alert_dialog_material = global::BasicScanner.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_dialog_title_material = global::BasicScanner.Droid.Resource.Layout.abc_dialog_title_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_expanded_menu_layout = global::BasicScanner.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_list_menu_item_checkbox = global::BasicScanner.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_list_menu_item_icon = global::BasicScanner.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_list_menu_item_layout = global::BasicScanner.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_list_menu_item_radio = global::BasicScanner.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_popup_menu_item_layout = global::BasicScanner.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_screen_content_include = global::BasicScanner.Droid.Resource.Layout.abc_screen_content_include;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_screen_simple = global::BasicScanner.Droid.Resource.Layout.abc_screen_simple;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::BasicScanner.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_screen_toolbar = global::BasicScanner.Droid.Resource.Layout.abc_screen_toolbar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::BasicScanner.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_search_view = global::BasicScanner.Droid.Resource.Layout.abc_search_view;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.abc_select_dialog_material = global::BasicScanner.Droid.Resource.Layout.abc_select_dialog_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.design_layout_snackbar = global::BasicScanner.Droid.Resource.Layout.design_layout_snackbar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.design_layout_snackbar_include = global::BasicScanner.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.design_layout_tab_icon = global::BasicScanner.Droid.Resource.Layout.design_layout_tab_icon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.design_layout_tab_text = global::BasicScanner.Droid.Resource.Layout.design_layout_tab_text;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.design_navigation_item = global::BasicScanner.Droid.Resource.Layout.design_navigation_item;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.design_navigation_item_header = global::BasicScanner.Droid.Resource.Layout.design_navigation_item_header;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.design_navigation_item_separator = global::BasicScanner.Droid.Resource.Layout.design_navigation_item_separator;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.design_navigation_item_subheader = global::BasicScanner.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.design_navigation_menu = global::BasicScanner.Droid.Resource.Layout.design_navigation_menu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.mr_media_route_chooser_dialog = global::BasicScanner.Droid.Resource.Layout.mr_media_route_chooser_dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.mr_media_route_controller_material_dialog_b = global::BasicScanner.Droid.Resource.Layout.mr_media_route_controller_material_dialog_b;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.mr_media_route_list_item = global::BasicScanner.Droid.Resource.Layout.mr_media_route_list_item;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.notification_media_action = global::BasicScanner.Droid.Resource.Layout.notification_media_action;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.notification_media_cancel_action = global::BasicScanner.Droid.Resource.Layout.notification_media_cancel_action;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.notification_template_big_media = global::BasicScanner.Droid.Resource.Layout.notification_template_big_media;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.notification_template_big_media_narrow = global::BasicScanner.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.notification_template_lines = global::BasicScanner.Droid.Resource.Layout.notification_template_lines;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.notification_template_media = global::BasicScanner.Droid.Resource.Layout.notification_template_media;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.notification_template_part_chronometer = global::BasicScanner.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.notification_template_part_time = global::BasicScanner.Droid.Resource.Layout.notification_template_part_time;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.select_dialog_item_material = global::BasicScanner.Droid.Resource.Layout.select_dialog_item_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.select_dialog_multichoice_material = global::BasicScanner.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.select_dialog_singlechoice_material = global::BasicScanner.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::BasicScanner.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::BasicScanner.Droid.Resource.Layout.zxingscanneractivitylayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::BasicScanner.Droid.Resource.Layout.zxingscannerfragmentlayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.ApplicationName = global::BasicScanner.Droid.Resource.String.ApplicationName;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.Hello = global::BasicScanner.Droid.Resource.String.Hello;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_action_bar_home_description = global::BasicScanner.Droid.Resource.String.abc_action_bar_home_description;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_action_bar_home_description_format = global::BasicScanner.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::BasicScanner.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_action_bar_up_description = global::BasicScanner.Droid.Resource.String.abc_action_bar_up_description;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_action_menu_overflow_description = global::BasicScanner.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_action_mode_done = global::BasicScanner.Droid.Resource.String.abc_action_mode_done;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_activity_chooser_view_see_all = global::BasicScanner.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_activitychooserview_choose_application = global::BasicScanner.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_search_hint = global::BasicScanner.Droid.Resource.String.abc_search_hint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_searchview_description_clear = global::BasicScanner.Droid.Resource.String.abc_searchview_description_clear;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_searchview_description_query = global::BasicScanner.Droid.Resource.String.abc_searchview_description_query;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_searchview_description_search = global::BasicScanner.Droid.Resource.String.abc_searchview_description_search;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_searchview_description_submit = global::BasicScanner.Droid.Resource.String.abc_searchview_description_submit;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_searchview_description_voice = global::BasicScanner.Droid.Resource.String.abc_searchview_description_voice;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_shareactionprovider_share_with = global::BasicScanner.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_shareactionprovider_share_with_application = global::BasicScanner.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.abc_toolbar_collapse_description = global::BasicScanner.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.appbar_scrolling_view_behavior = global::BasicScanner.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.library_name = global::BasicScanner.Droid.Resource.String.library_name;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_media_route_button_content_description = global::BasicScanner.Droid.Resource.String.mr_media_route_button_content_description;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_media_route_chooser_searching = global::BasicScanner.Droid.Resource.String.mr_media_route_chooser_searching;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_media_route_chooser_title = global::BasicScanner.Droid.Resource.String.mr_media_route_chooser_title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_media_route_controller_disconnect = global::BasicScanner.Droid.Resource.String.mr_media_route_controller_disconnect;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_media_route_controller_no_info_available = global::BasicScanner.Droid.Resource.String.mr_media_route_controller_no_info_available;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_media_route_controller_pause = global::BasicScanner.Droid.Resource.String.mr_media_route_controller_pause;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_media_route_controller_play = global::BasicScanner.Droid.Resource.String.mr_media_route_controller_play;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_media_route_controller_settings_description = global::BasicScanner.Droid.Resource.String.mr_media_route_controller_settings_description;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_media_route_controller_stop = global::BasicScanner.Droid.Resource.String.mr_media_route_controller_stop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_system_route_name = global::BasicScanner.Droid.Resource.String.mr_system_route_name;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.mr_user_route_category_name = global::BasicScanner.Droid.Resource.String.mr_user_route_category_name;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.String.status_bar_notification_info_overflow = global::BasicScanner.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.AlertDialog_AppCompat = global::BasicScanner.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.AlertDialog_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Animation_AppCompat_Dialog = global::BasicScanner.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::BasicScanner.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat = global::BasicScanner.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::BasicScanner.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::BasicScanner.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::BasicScanner.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::BasicScanner.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::BasicScanner.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::BasicScanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::BasicScanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::BasicScanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::BasicScanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::BasicScanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::BasicScanner.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::BasicScanner.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::BasicScanner.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::BasicScanner.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat = global::BasicScanner.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::BasicScanner.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::BasicScanner.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat = global::BasicScanner.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat = global::BasicScanner.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat = global::BasicScanner.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::BasicScanner.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::BasicScanner.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::BasicScanner.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::BasicScanner.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::BasicScanner.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Base_Widget_Design_TabLayout = global::BasicScanner.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.CardView = global::BasicScanner.Droid.Resource.Style.CardView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.CardView_Dark = global::BasicScanner.Droid.Resource.Style.CardView_Dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.CardView_Light = global::BasicScanner.Droid.Resource.Style.CardView_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Platform_AppCompat = global::BasicScanner.Droid.Resource.Style.Platform_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Platform_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::BasicScanner.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::BasicScanner.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Platform_V11_AppCompat = global::BasicScanner.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Platform_V11_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Platform_V14_AppCompat = global::BasicScanner.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Platform_V14_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::BasicScanner.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::BasicScanner.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::BasicScanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Button = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BasicScanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::BasicScanner.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_Design_Error = global::BasicScanner.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_Design_Hint = global::BasicScanner.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::BasicScanner.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_Design_Tab = global::BasicScanner.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::BasicScanner.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::BasicScanner.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::BasicScanner.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::BasicScanner.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::BasicScanner.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BasicScanner.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BasicScanner.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::BasicScanner.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_Dialog = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::BasicScanner.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_MediaRouter = global::BasicScanner.Droid.Resource.Style.Theme_MediaRouter;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Theme_MediaRouter_Light = global::BasicScanner.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.ThemeOverlay_AppCompat = global::BasicScanner.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::BasicScanner.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::BasicScanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::BasicScanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::BasicScanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ActionMode = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Button = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Button_Small = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_EditText = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ListView = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_SearchView = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Spinner = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::BasicScanner.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_Design_AppBarLayout = global::BasicScanner.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::BasicScanner.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::BasicScanner.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_Design_FloatingActionButton = global::BasicScanner.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_Design_NavigationView = global::BasicScanner.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::BasicScanner.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_Design_Snackbar = global::BasicScanner.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_Design_TabLayout = global::BasicScanner.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_Design_TextInputLayout = global::BasicScanner.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::BasicScanner.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::BasicScanner.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar = global::BasicScanner.Droid.Resource.Styleable.ActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_background = global::BasicScanner.Droid.Resource.Styleable.ActionBar_background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_backgroundSplit = global::BasicScanner.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_backgroundStacked = global::BasicScanner.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::BasicScanner.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::BasicScanner.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_contentInsetRight = global::BasicScanner.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_contentInsetStart = global::BasicScanner.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::BasicScanner.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_displayOptions = global::BasicScanner.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_divider = global::BasicScanner.Droid.Resource.Styleable.ActionBar_divider;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_elevation = global::BasicScanner.Droid.Resource.Styleable.ActionBar_elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_height = global::BasicScanner.Droid.Resource.Styleable.ActionBar_height;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::BasicScanner.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::BasicScanner.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_homeLayout = global::BasicScanner.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_icon = global::BasicScanner.Droid.Resource.Styleable.ActionBar_icon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::BasicScanner.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_itemPadding = global::BasicScanner.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_logo = global::BasicScanner.Droid.Resource.Styleable.ActionBar_logo;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_navigationMode = global::BasicScanner.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_popupTheme = global::BasicScanner.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_progressBarPadding = global::BasicScanner.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_progressBarStyle = global::BasicScanner.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_subtitle = global::BasicScanner.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::BasicScanner.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_title = global::BasicScanner.Droid.Resource.Styleable.ActionBar_title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBar_titleTextStyle = global::BasicScanner.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBarLayout = global::BasicScanner.Droid.Resource.Styleable.ActionBarLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::BasicScanner.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionMenuItemView = global::BasicScanner.Droid.Resource.Styleable.ActionMenuItemView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::BasicScanner.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionMenuView = global::BasicScanner.Droid.Resource.Styleable.ActionMenuView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionMode = global::BasicScanner.Droid.Resource.Styleable.ActionMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionMode_background = global::BasicScanner.Droid.Resource.Styleable.ActionMode_background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionMode_backgroundSplit = global::BasicScanner.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionMode_closeItemLayout = global::BasicScanner.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionMode_height = global::BasicScanner.Droid.Resource.Styleable.ActionMode_height;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::BasicScanner.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActionMode_titleTextStyle = global::BasicScanner.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActivityChooserView = global::BasicScanner.Droid.Resource.Styleable.ActivityChooserView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::BasicScanner.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::BasicScanner.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AlertDialog = global::BasicScanner.Droid.Resource.Styleable.AlertDialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AlertDialog_android_layout = global::BasicScanner.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::BasicScanner.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AlertDialog_listItemLayout = global::BasicScanner.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AlertDialog_listLayout = global::BasicScanner.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::BasicScanner.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::BasicScanner.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AppBarLayout = global::BasicScanner.Droid.Resource.Styleable.AppBarLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AppBarLayout_android_background = global::BasicScanner.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AppBarLayout_elevation = global::BasicScanner.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AppBarLayout_expanded = global::BasicScanner.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AppBarLayout_LayoutParams = global::BasicScanner.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::BasicScanner.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::BasicScanner.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AppCompatTextView = global::BasicScanner.Droid.Resource.Styleable.AppCompatTextView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::BasicScanner.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::BasicScanner.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView = global::BasicScanner.Droid.Resource.Styleable.CardView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_cardBackgroundColor = global::BasicScanner.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_cardCornerRadius = global::BasicScanner.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_cardElevation = global::BasicScanner.Droid.Resource.Styleable.CardView_cardElevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_cardMaxElevation = global::BasicScanner.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::BasicScanner.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::BasicScanner.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_contentPadding = global::BasicScanner.Droid.Resource.Styleable.CardView_contentPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_contentPaddingBottom = global::BasicScanner.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_contentPaddingLeft = global::BasicScanner.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_contentPaddingRight = global::BasicScanner.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CardView_contentPaddingTop = global::BasicScanner.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::BasicScanner.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::BasicScanner.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::BasicScanner.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::BasicScanner.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CompoundButton = global::BasicScanner.Droid.Resource.Styleable.CompoundButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CompoundButton_android_button = global::BasicScanner.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CompoundButton_buttonTint = global::BasicScanner.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::BasicScanner.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CoordinatorLayout = global::BasicScanner.Droid.Resource.Styleable.CoordinatorLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CoordinatorLayout_keylines = global::BasicScanner.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::BasicScanner.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams = global::BasicScanner.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::BasicScanner.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::BasicScanner.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::BasicScanner.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::BasicScanner.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::BasicScanner.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.DrawerArrowToggle = global::BasicScanner.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::BasicScanner.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::BasicScanner.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::BasicScanner.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.DrawerArrowToggle_color = global::BasicScanner.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::BasicScanner.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::BasicScanner.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::BasicScanner.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::BasicScanner.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.FloatingActionButton = global::BasicScanner.Droid.Resource.Styleable.FloatingActionButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.FloatingActionButton_android_background = global::BasicScanner.Droid.Resource.Styleable.FloatingActionButton_android_background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::BasicScanner.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::BasicScanner.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::BasicScanner.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.FloatingActionButton_elevation = global::BasicScanner.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.FloatingActionButton_fabSize = global::BasicScanner.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::BasicScanner.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::BasicScanner.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_divider = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::BasicScanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ListPopupWindow = global::BasicScanner.Droid.Resource.Styleable.ListPopupWindow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::BasicScanner.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::BasicScanner.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MediaRouteButton = global::BasicScanner.Droid.Resource.Styleable.MediaRouteButton;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::BasicScanner.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::BasicScanner.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::BasicScanner.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuGroup = global::BasicScanner.Droid.Resource.Styleable.MenuGroup;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::BasicScanner.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuGroup_android_enabled = global::BasicScanner.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuGroup_android_id = global::BasicScanner.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::BasicScanner.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::BasicScanner.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuGroup_android_visible = global::BasicScanner.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem = global::BasicScanner.Droid.Resource.Styleable.MenuItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_actionLayout = global::BasicScanner.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_actionProviderClass = global::BasicScanner.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_actionViewClass = global::BasicScanner.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_checkable = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_checked = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_enabled = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_icon = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_id = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_id;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_menuCategory = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_onClick = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_title = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_android_visible = global::BasicScanner.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuItem_showAsAction = global::BasicScanner.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuView = global::BasicScanner.Droid.Resource.Styleable.MenuView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuView_android_headerBackground = global::BasicScanner.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::BasicScanner.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuView_android_itemBackground = global::BasicScanner.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::BasicScanner.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::BasicScanner.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuView_android_verticalDivider = global::BasicScanner.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::BasicScanner.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::BasicScanner.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView = global::BasicScanner.Droid.Resource.Styleable.NavigationView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView_android_background = global::BasicScanner.Droid.Resource.Styleable.NavigationView_android_background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::BasicScanner.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView_android_maxWidth = global::BasicScanner.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView_elevation = global::BasicScanner.Droid.Resource.Styleable.NavigationView_elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView_headerLayout = global::BasicScanner.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView_itemBackground = global::BasicScanner.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView_itemIconTint = global::BasicScanner.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::BasicScanner.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView_itemTextColor = global::BasicScanner.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.NavigationView_menu = global::BasicScanner.Droid.Resource.Styleable.NavigationView_menu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.PopupWindow = global::BasicScanner.Droid.Resource.Styleable.PopupWindow;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::BasicScanner.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::BasicScanner.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.PopupWindowBackgroundState = global::BasicScanner.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::BasicScanner.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::BasicScanner.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::BasicScanner.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Params = global::BasicScanner.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::BasicScanner.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView = global::BasicScanner.Droid.Resource.Styleable.SearchView;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_android_focusable = global::BasicScanner.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_android_imeOptions = global::BasicScanner.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_android_inputType = global::BasicScanner.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_android_maxWidth = global::BasicScanner.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_closeIcon = global::BasicScanner.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_commitIcon = global::BasicScanner.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_defaultQueryHint = global::BasicScanner.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_goIcon = global::BasicScanner.Droid.Resource.Styleable.SearchView_goIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::BasicScanner.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_layout = global::BasicScanner.Droid.Resource.Styleable.SearchView_layout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_queryBackground = global::BasicScanner.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_queryHint = global::BasicScanner.Droid.Resource.Styleable.SearchView_queryHint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_searchHintIcon = global::BasicScanner.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_searchIcon = global::BasicScanner.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_submitBackground = global::BasicScanner.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::BasicScanner.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SearchView_voiceIcon = global::BasicScanner.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SnackbarLayout = global::BasicScanner.Droid.Resource.Styleable.SnackbarLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::BasicScanner.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SnackbarLayout_elevation = global::BasicScanner.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::BasicScanner.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Spinner = global::BasicScanner.Droid.Resource.Styleable.Spinner;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::BasicScanner.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Spinner_android_popupBackground = global::BasicScanner.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Spinner_android_prompt = global::BasicScanner.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Spinner_popupTheme = global::BasicScanner.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat_android_textOff = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat_android_textOn = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat_android_thumb = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat_showText = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat_splitTrack = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat_switchPadding = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.SwitchCompat_track = global::BasicScanner.Droid.Resource.Styleable.SwitchCompat_track;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout = global::BasicScanner.Droid.Resource.Styleable.TabLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabBackground = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabContentStart = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabGravity = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabMinWidth = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabMode = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabPadding = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TabLayout_tabTextColor = global::BasicScanner.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextAppearance = global::BasicScanner.Droid.Resource.Styleable.TextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextAppearance_android_textColor = global::BasicScanner.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextAppearance_android_textSize = global::BasicScanner.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextAppearance_android_textStyle = global::BasicScanner.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextAppearance_android_typeface = global::BasicScanner.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextAppearance_textAllCaps = global::BasicScanner.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextInputLayout = global::BasicScanner.Droid.Resource.Styleable.TextInputLayout;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextInputLayout_android_hint = global::BasicScanner.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::BasicScanner.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::BasicScanner.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::BasicScanner.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::BasicScanner.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::BasicScanner.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme = global::BasicScanner.Droid.Resource.Styleable.Theme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarDivider = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarDivider;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarItemBackground = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarItemBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarPopupTheme = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarPopupTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarSize = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarSize;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarSplitStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarSplitStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarTabBarStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarTabBarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarTabStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarTabStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarTabTextStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarTabTextStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarTheme = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionBarWidgetTheme = global::BasicScanner.Droid.Resource.Styleable.Theme_actionBarWidgetTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionButtonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionDropDownStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionDropDownStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionMenuTextAppearance = global::BasicScanner.Droid.Resource.Styleable.Theme_actionMenuTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionMenuTextColor = global::BasicScanner.Droid.Resource.Styleable.Theme_actionMenuTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeBackground = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeCloseButtonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeCloseButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeCloseDrawable = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeCloseDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeCopyDrawable = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeCopyDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeCutDrawable = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeCutDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeFindDrawable = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeFindDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModePasteDrawable = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModePasteDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModePopupWindowStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModePopupWindowStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeSelectAllDrawable = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeSelectAllDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeShareDrawable = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeShareDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeSplitBackground = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeSplitBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionModeWebSearchDrawable = global::BasicScanner.Droid.Resource.Styleable.Theme_actionModeWebSearchDrawable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionOverflowButtonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionOverflowButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_actionOverflowMenuStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_actionOverflowMenuStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_activityChooserViewStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_activityChooserViewStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_alertDialogButtonGroupStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_alertDialogButtonGroupStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_alertDialogCenterButtons = global::BasicScanner.Droid.Resource.Styleable.Theme_alertDialogCenterButtons;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_alertDialogStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_alertDialogStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_alertDialogTheme = global::BasicScanner.Droid.Resource.Styleable.Theme_alertDialogTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_android_windowAnimationStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_android_windowAnimationStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_android_windowIsFloating = global::BasicScanner.Droid.Resource.Styleable.Theme_android_windowIsFloating;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_autoCompleteTextViewStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_autoCompleteTextViewStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_borderlessButtonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_borderlessButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_buttonBarButtonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_buttonBarButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_buttonBarNegativeButtonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_buttonBarNegativeButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_buttonBarNeutralButtonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_buttonBarNeutralButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_buttonBarPositiveButtonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_buttonBarPositiveButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_buttonBarStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_buttonBarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_buttonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_buttonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_buttonStyleSmall = global::BasicScanner.Droid.Resource.Styleable.Theme_buttonStyleSmall;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_checkboxStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_checkboxStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_checkedTextViewStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_checkedTextViewStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_colorAccent = global::BasicScanner.Droid.Resource.Styleable.Theme_colorAccent;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_colorButtonNormal = global::BasicScanner.Droid.Resource.Styleable.Theme_colorButtonNormal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_colorControlActivated = global::BasicScanner.Droid.Resource.Styleable.Theme_colorControlActivated;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_colorControlHighlight = global::BasicScanner.Droid.Resource.Styleable.Theme_colorControlHighlight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_colorControlNormal = global::BasicScanner.Droid.Resource.Styleable.Theme_colorControlNormal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_colorPrimary = global::BasicScanner.Droid.Resource.Styleable.Theme_colorPrimary;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_colorPrimaryDark = global::BasicScanner.Droid.Resource.Styleable.Theme_colorPrimaryDark;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_colorSwitchThumbNormal = global::BasicScanner.Droid.Resource.Styleable.Theme_colorSwitchThumbNormal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_controlBackground = global::BasicScanner.Droid.Resource.Styleable.Theme_controlBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_dialogPreferredPadding = global::BasicScanner.Droid.Resource.Styleable.Theme_dialogPreferredPadding;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_dialogTheme = global::BasicScanner.Droid.Resource.Styleable.Theme_dialogTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_dividerHorizontal = global::BasicScanner.Droid.Resource.Styleable.Theme_dividerHorizontal;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_dividerVertical = global::BasicScanner.Droid.Resource.Styleable.Theme_dividerVertical;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_dropDownListViewStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_dropDownListViewStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_dropdownListPreferredItemHeight = global::BasicScanner.Droid.Resource.Styleable.Theme_dropdownListPreferredItemHeight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_editTextBackground = global::BasicScanner.Droid.Resource.Styleable.Theme_editTextBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_editTextColor = global::BasicScanner.Droid.Resource.Styleable.Theme_editTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_editTextStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_editTextStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_homeAsUpIndicator = global::BasicScanner.Droid.Resource.Styleable.Theme_homeAsUpIndicator;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_listChoiceBackgroundIndicator = global::BasicScanner.Droid.Resource.Styleable.Theme_listChoiceBackgroundIndicator;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_listDividerAlertDialog = global::BasicScanner.Droid.Resource.Styleable.Theme_listDividerAlertDialog;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_listPopupWindowStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_listPopupWindowStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_listPreferredItemHeight = global::BasicScanner.Droid.Resource.Styleable.Theme_listPreferredItemHeight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_listPreferredItemHeightLarge = global::BasicScanner.Droid.Resource.Styleable.Theme_listPreferredItemHeightLarge;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_listPreferredItemHeightSmall = global::BasicScanner.Droid.Resource.Styleable.Theme_listPreferredItemHeightSmall;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_listPreferredItemPaddingLeft = global::BasicScanner.Droid.Resource.Styleable.Theme_listPreferredItemPaddingLeft;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_listPreferredItemPaddingRight = global::BasicScanner.Droid.Resource.Styleable.Theme_listPreferredItemPaddingRight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_panelBackground = global::BasicScanner.Droid.Resource.Styleable.Theme_panelBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_panelMenuListTheme = global::BasicScanner.Droid.Resource.Styleable.Theme_panelMenuListTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_panelMenuListWidth = global::BasicScanner.Droid.Resource.Styleable.Theme_panelMenuListWidth;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_popupMenuStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_popupMenuStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_popupWindowStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_popupWindowStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_radioButtonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_radioButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_ratingBarStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_ratingBarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_searchViewStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_searchViewStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_selectableItemBackground = global::BasicScanner.Droid.Resource.Styleable.Theme_selectableItemBackground;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_selectableItemBackgroundBorderless = global::BasicScanner.Droid.Resource.Styleable.Theme_selectableItemBackgroundBorderless;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_spinnerDropDownItemStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_spinnerDropDownItemStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_spinnerStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_spinnerStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_switchStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_switchStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_textAppearanceLargePopupMenu = global::BasicScanner.Droid.Resource.Styleable.Theme_textAppearanceLargePopupMenu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_textAppearanceListItem = global::BasicScanner.Droid.Resource.Styleable.Theme_textAppearanceListItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_textAppearanceListItemSmall = global::BasicScanner.Droid.Resource.Styleable.Theme_textAppearanceListItemSmall;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle = global::BasicScanner.Droid.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_textAppearanceSearchResultTitle = global::BasicScanner.Droid.Resource.Styleable.Theme_textAppearanceSearchResultTitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_textAppearanceSmallPopupMenu = global::BasicScanner.Droid.Resource.Styleable.Theme_textAppearanceSmallPopupMenu;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_textColorAlertDialogListItem = global::BasicScanner.Droid.Resource.Styleable.Theme_textColorAlertDialogListItem;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_textColorSearchUrl = global::BasicScanner.Droid.Resource.Styleable.Theme_textColorSearchUrl;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_toolbarNavigationButtonStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_toolbarNavigationButtonStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_toolbarStyle = global::BasicScanner.Droid.Resource.Styleable.Theme_toolbarStyle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_windowActionBar = global::BasicScanner.Droid.Resource.Styleable.Theme_windowActionBar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_windowActionBarOverlay = global::BasicScanner.Droid.Resource.Styleable.Theme_windowActionBarOverlay;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_windowActionModeOverlay = global::BasicScanner.Droid.Resource.Styleable.Theme_windowActionModeOverlay;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_windowFixedHeightMajor = global::BasicScanner.Droid.Resource.Styleable.Theme_windowFixedHeightMajor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_windowFixedHeightMinor = global::BasicScanner.Droid.Resource.Styleable.Theme_windowFixedHeightMinor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_windowFixedWidthMajor = global::BasicScanner.Droid.Resource.Styleable.Theme_windowFixedWidthMajor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_windowFixedWidthMinor = global::BasicScanner.Droid.Resource.Styleable.Theme_windowFixedWidthMinor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_windowMinWidthMajor = global::BasicScanner.Droid.Resource.Styleable.Theme_windowMinWidthMajor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_windowMinWidthMinor = global::BasicScanner.Droid.Resource.Styleable.Theme_windowMinWidthMinor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Theme_windowNoTitle = global::BasicScanner.Droid.Resource.Styleable.Theme_windowNoTitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar = global::BasicScanner.Droid.Resource.Styleable.Toolbar;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_android_gravity = global::BasicScanner.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_android_minHeight = global::BasicScanner.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::BasicScanner.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_collapseIcon = global::BasicScanner.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::BasicScanner.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::BasicScanner.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_contentInsetRight = global::BasicScanner.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_contentInsetStart = global::BasicScanner.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_logo = global::BasicScanner.Droid.Resource.Styleable.Toolbar_logo;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_logoDescription = global::BasicScanner.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::BasicScanner.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::BasicScanner.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_navigationIcon = global::BasicScanner.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_popupTheme = global::BasicScanner.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_subtitle = global::BasicScanner.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::BasicScanner.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::BasicScanner.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_title = global::BasicScanner.Droid.Resource.Styleable.Toolbar_title;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::BasicScanner.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::BasicScanner.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_titleMarginStart = global::BasicScanner.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_titleMarginTop = global::BasicScanner.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_titleMargins = global::BasicScanner.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::BasicScanner.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.Toolbar_titleTextColor = global::BasicScanner.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.View = global::BasicScanner.Droid.Resource.Styleable.View;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.View_android_focusable = global::BasicScanner.Droid.Resource.Styleable.View_android_focusable;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.View_android_theme = global::BasicScanner.Droid.Resource.Styleable.View_android_theme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.View_paddingEnd = global::BasicScanner.Droid.Resource.Styleable.View_paddingEnd;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.View_paddingStart = global::BasicScanner.Droid.Resource.Styleable.View_paddingStart;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.View_theme = global::BasicScanner.Droid.Resource.Styleable.View_theme;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ViewBackgroundHelper = global::BasicScanner.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::BasicScanner.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::BasicScanner.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::BasicScanner.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ViewStubCompat = global::BasicScanner.Droid.Resource.Styleable.ViewStubCompat;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ViewStubCompat_android_id = global::BasicScanner.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::BasicScanner.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::ZXing.Net.Mobile.Forms.Android.Resource.Styleable.ViewStubCompat_android_layout = global::BasicScanner.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::BasicScanner.Droid.Resource.Attribute.actionBarSize;
 			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::BasicScanner.Droid.Resource.String.ApplicationName;
 			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::BasicScanner.Droid.Resource.String.Hello;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::BasicScanner.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::BasicScanner.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::BasicScanner.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::BasicScanner.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::BasicScanner.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.String.library_name = global::BasicScanner.Droid.Resource.String.library_name;
 		}
 		
 		public partial class Animation
@@ -3573,283 +2034,280 @@ namespace BasicScanner.Droid
 			public const int design_snackbar_background = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int dragonIcon = 2130837582;
+			public const int ic_audiotrack = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int ic_audiotrack = 2130837583;
+			public const int ic_audiotrack_light = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int ic_audiotrack_light = 2130837584;
+			public const int ic_bluetooth_grey = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int ic_bluetooth_grey = 2130837585;
+			public const int ic_bluetooth_white = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int ic_bluetooth_white = 2130837586;
+			public const int ic_cast_dark = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int ic_cast_dark = 2130837587;
+			public const int ic_cast_disabled_light = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int ic_cast_disabled_light = 2130837588;
+			public const int ic_cast_grey = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int ic_cast_grey = 2130837589;
+			public const int ic_cast_light = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int ic_cast_light = 2130837590;
+			public const int ic_cast_off_light = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int ic_cast_off_light = 2130837591;
+			public const int ic_cast_on_0_light = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int ic_cast_on_0_light = 2130837592;
+			public const int ic_cast_on_1_light = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int ic_cast_on_1_light = 2130837593;
+			public const int ic_cast_on_2_light = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int ic_cast_on_2_light = 2130837594;
+			public const int ic_cast_on_light = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_cast_on_light = 2130837595;
+			public const int ic_cast_white = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_cast_white = 2130837596;
+			public const int ic_close_dark = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_close_dark = 2130837597;
+			public const int ic_close_light = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_close_light = 2130837598;
+			public const int ic_collapse = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_collapse = 2130837599;
+			public const int ic_collapse_00000 = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_collapse_00000 = 2130837600;
+			public const int ic_collapse_00001 = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_collapse_00001 = 2130837601;
+			public const int ic_collapse_00002 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_collapse_00002 = 2130837602;
+			public const int ic_collapse_00003 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_collapse_00003 = 2130837603;
+			public const int ic_collapse_00004 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_collapse_00004 = 2130837604;
+			public const int ic_collapse_00005 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_collapse_00005 = 2130837605;
+			public const int ic_collapse_00006 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_collapse_00006 = 2130837606;
+			public const int ic_collapse_00007 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_collapse_00007 = 2130837607;
+			public const int ic_collapse_00008 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_collapse_00008 = 2130837608;
+			public const int ic_collapse_00009 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_collapse_00009 = 2130837609;
+			public const int ic_collapse_00010 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_collapse_00010 = 2130837610;
+			public const int ic_collapse_00011 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_collapse_00011 = 2130837611;
+			public const int ic_collapse_00012 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_collapse_00012 = 2130837612;
+			public const int ic_collapse_00013 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_collapse_00013 = 2130837613;
+			public const int ic_collapse_00014 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_collapse_00014 = 2130837614;
+			public const int ic_collapse_00015 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_collapse_00015 = 2130837615;
+			public const int ic_errorstatus = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_errorstatus = 2130837616;
+			public const int ic_expand = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_expand = 2130837617;
+			public const int ic_expand_00000 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_expand_00000 = 2130837618;
+			public const int ic_expand_00001 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_expand_00001 = 2130837619;
+			public const int ic_expand_00002 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_expand_00002 = 2130837620;
+			public const int ic_expand_00003 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_expand_00003 = 2130837621;
+			public const int ic_expand_00004 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_expand_00004 = 2130837622;
+			public const int ic_expand_00005 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_expand_00005 = 2130837623;
+			public const int ic_expand_00006 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_expand_00006 = 2130837624;
+			public const int ic_expand_00007 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_expand_00007 = 2130837625;
+			public const int ic_expand_00008 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_expand_00008 = 2130837626;
+			public const int ic_expand_00009 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_expand_00009 = 2130837627;
+			public const int ic_expand_00010 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_expand_00010 = 2130837628;
+			public const int ic_expand_00011 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_expand_00011 = 2130837629;
+			public const int ic_expand_00012 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_expand_00012 = 2130837630;
+			public const int ic_expand_00013 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_expand_00013 = 2130837631;
+			public const int ic_expand_00014 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_expand_00014 = 2130837632;
+			public const int ic_expand_00015 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_expand_00015 = 2130837633;
+			public const int ic_media_pause = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_pause = 2130837634;
+			public const int ic_media_play = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_play = 2130837635;
+			public const int ic_media_route_disabled_mono_dark = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_route_disabled_mono_dark = 2130837636;
+			public const int ic_media_route_off_mono_dark = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_route_off_mono_dark = 2130837637;
+			public const int ic_media_route_on_0_mono_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_media_route_on_0_mono_dark = 2130837638;
+			public const int ic_media_route_on_1_mono_dark = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_media_route_on_1_mono_dark = 2130837639;
+			public const int ic_media_route_on_2_mono_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_media_route_on_2_mono_dark = 2130837640;
+			public const int ic_media_route_on_mono_dark = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_media_route_on_mono_dark = 2130837641;
+			public const int ic_pause_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_pause_dark = 2130837642;
+			public const int ic_pause_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_pause_light = 2130837643;
+			public const int ic_play_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_play_dark = 2130837644;
+			public const int ic_play_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_play_light = 2130837645;
+			public const int ic_speaker_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_speaker_dark = 2130837646;
+			public const int ic_speaker_group_dark = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_speaker_group_dark = 2130837647;
+			public const int ic_speaker_group_light = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_speaker_group_light = 2130837648;
+			public const int ic_speaker_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_speaker_light = 2130837649;
+			public const int ic_successstatus = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_successstatus = 2130837650;
+			public const int ic_tv_dark = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_tv_dark = 2130837651;
+			public const int ic_tv_light = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_tv_light = 2130837652;
+			public const int icon = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int icon = 2130837653;
+			public const int menuIcon2 = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int kiewitLogo = 2130837654;
+			public const int mr_dialog_material_background_dark = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int menuIcon2 = 2130837655;
+			public const int mr_dialog_material_background_light = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int mr_dialog_material_background_dark = 2130837656;
+			public const int mr_ic_audiotrack_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int mr_dialog_material_background_light = 2130837657;
+			public const int mr_ic_cast_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int mr_ic_audiotrack_light = 2130837658;
+			public const int mr_ic_cast_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int mr_ic_cast_dark = 2130837659;
+			public const int mr_ic_close_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int mr_ic_cast_light = 2130837660;
+			public const int mr_ic_close_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int mr_ic_close_dark = 2130837661;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int mr_ic_close_light = 2130837662;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837663;
+			public const int mr_ic_media_route_mono_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int mr_ic_media_route_connecting_mono_light = 2130837664;
+			public const int mr_ic_media_route_mono_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int mr_ic_media_route_mono_dark = 2130837665;
+			public const int mr_ic_pause_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int mr_ic_media_route_mono_light = 2130837666;
+			public const int mr_ic_pause_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int mr_ic_pause_dark = 2130837667;
+			public const int mr_ic_play_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int mr_ic_pause_light = 2130837668;
+			public const int mr_ic_play_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int mr_ic_play_dark = 2130837669;
-			
-			// aapt resource value: 0x7f0200a6
-			public const int mr_ic_play_light = 2130837670;
-			
-			// aapt resource value: 0x7f0200a7
-			public const int newScanner = 2130837671;
-			
-			// aapt resource value: 0x7f0200aa
-			public const int notification_template_icon_bg = 2130837674;
-			
-			// aapt resource value: 0x7f0200a8
-			public const int roundedbg = 2130837672;
+			public const int newScanner = 2130837669;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int roundedbgdark = 2130837673;
+			public const int notification_template_icon_bg = 2130837673;
+			
+			// aapt resource value: 0x7f0200a6
+			public const int plus = 2130837670;
+			
+			// aapt resource value: 0x7f0200a7
+			public const int roundedbg = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int roundedbgdark = 2130837672;
 			
 			static Drawable()
 			{
@@ -4615,11 +3073,11 @@ namespace BasicScanner.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060027
-			public const int ApplicationName = 2131099687;
+			// aapt resource value: 0x7f060028
+			public const int ApplicationName = 2131099688;
 			
-			// aapt resource value: 0x7f060026
-			public const int Hello = 2131099686;
+			// aapt resource value: 0x7f060027
+			public const int Hello = 2131099687;
 			
 			// aapt resource value: 0x7f060012
 			public const int abc_action_bar_home_description = 2131099666;
@@ -4687,8 +3145,8 @@ namespace BasicScanner.Droid
 			// aapt resource value: 0x7f060011
 			public const int character_counter_pattern = 2131099665;
 			
-			// aapt resource value: 0x7f060028
-			public const int library_name = 2131099688;
+			// aapt resource value: 0x7f060026
+			public const int library_name = 2131099686;
 			
 			// aapt resource value: 0x7f060000
 			public const int mr_button_content_description = 2131099648;
