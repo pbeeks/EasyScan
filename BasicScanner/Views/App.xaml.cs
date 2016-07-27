@@ -10,6 +10,7 @@ namespace BasicScanner
 
 		public App()
 		{
+
 			InitializeComponent();
 			var isLoggedIn = Properties.ContainsKey("IsLoggedIn") ? (bool)Properties["IsLoggedIn"] : false;
 

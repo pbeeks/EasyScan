@@ -179,6 +179,8 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="SQLite_iOS.cs" />
     <Compile Include="NativeiOSListViewRenderer.cs" />
+    <Compile Include="Localize.cs" />
+    <Compile Include="ILocalize.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\burg.png" />

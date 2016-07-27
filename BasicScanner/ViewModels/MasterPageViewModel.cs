@@ -2,6 +2,7 @@
 using System.Windows.Input;
 using Xamarin.Forms;
 using System.Linq;
+using BasicScanner.Localization;
 
 namespace BasicScanner
 {
@@ -74,8 +75,8 @@ namespace BasicScanner
 				time = "--";
 			}
 
-			Count = "Scans: " + scans;
-			LastScan = "Last scan: " + date + " " + time;
+			Count = AppResources.ScansLabel + scans;
+			LastScan = AppResources.LastScanLabel + date + " " + time;
 		}
 		#endregion
 

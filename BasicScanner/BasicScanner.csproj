@@ -50,8 +50,8 @@
     <EmbeddedResource Include="Views\HistoryDetailsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Misc\AppResources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+    <EmbeddedResource Include="Localization\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
@@ -93,22 +93,21 @@
     <Compile Include="Database\ScanResult.cs" />
     <Compile Include="Database\User.cs" />
     <Compile Include="ViewModels\NativeListViewViewModel.cs" />
-    <Compile Include="Misc\AppResources.Designer.cs">
+    <Compile Include="Localization\AppResources.Designer.cs">
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Misc\UsingResxLocalization.cs" />
-    <Compile Include="Misc\ILocalize.cs" />
+    <Compile Include="Localization\ILocalize.cs" />
+    <Compile Include="Localization\TranslateExtension.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Misc\FodyWeavers.xml" />
-    <None Include="Misc\packages.config" />
+    <None Include="Localization\packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Database\" />
     <Folder Include="Views\MasterDetail\" />
-    <Folder Include="Misc\" />
+    <Folder Include="Localization\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Splat">
