@@ -1,10 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.ComponentModel;
 
 namespace BasicScanner
 {

@@ -11,7 +11,7 @@ namespace BasicScanner
 		public HistoryDetailsPage(ScanResult Info)
 		{
 			this.BindingContext = new HistoryDetailPageViewModel(Info, this.Navigation);
-			InitializeComponent(); // https://developer.xamarin.com/guides/xamarin-forms/advanced/localization/
+			InitializeComponent(); 
 		}
 	}
 }
