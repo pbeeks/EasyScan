@@ -6,7 +6,7 @@ using Xamarin.Forms;
 
 namespace BasicScanner.iOS
 {
-	public class Localize : BasicScanner.ILocalize
+	public class Localize : ILocalize
 	{
 		public System.Globalization.CultureInfo GetCurrentCultureInfo()
 		{

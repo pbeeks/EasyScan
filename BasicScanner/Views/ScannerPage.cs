@@ -44,7 +44,7 @@ namespace BasicScanner
 						 
 							  var newScan = new ScanResult();
 							  newScan.Date = timeArray[0];
-							  newScan.Time = timeArray[1] + " " + timeArray[2];
+						  newScan.Time = timeArray[1];
 							  newScan.Format = result.BarcodeFormat.ToString();
 							  newScan.UserID = _currUser.ID;
 							  newScan.Content = result.Text;
