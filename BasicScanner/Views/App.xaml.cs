@@ -1,5 +1,6 @@
 ﻿using Xamarin.Forms;
 using System;
+using System.Reflection;
 
 namespace BasicScanner
 {
@@ -12,6 +13,14 @@ namespace BasicScanner
 		{
 
 			InitializeComponent();
+
+			//System.Globalization.CultureInfo culture = null;
+			//if (Device.OS != TargetPlatform.WinPhone)
+			//{
+			//	culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
+			//}
+
+
 			var isLoggedIn = Properties.ContainsKey("IsLoggedIn") ? (bool)Properties["IsLoggedIn"] : false;
 
 			int persistUser;

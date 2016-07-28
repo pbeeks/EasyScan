@@ -12,7 +12,7 @@ namespace BasicScanner
 	public class TranslateExtension : IMarkupExtension
 	{
 		readonly CultureInfo ci;
-		const string ResourceId = "UsingResxLocalization.Resx.AppResources";
+		const string ResourceId = "BasicScanner.Localization.AppResources";
 
 		public TranslateExtension()
 		{

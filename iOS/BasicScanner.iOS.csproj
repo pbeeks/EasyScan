@@ -169,7 +169,9 @@
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Info.plist" />
+    <None Include="Info.plist">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Entitlements.plist" />
     <None Include="FodyWeavers.xml" />
     <None Include="packages.config" />
@@ -180,7 +182,6 @@
     <Compile Include="SQLite_iOS.cs" />
     <Compile Include="NativeiOSListViewRenderer.cs" />
     <Compile Include="Localize.cs" />
-    <Compile Include="ILocalize.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\burg.png" />
