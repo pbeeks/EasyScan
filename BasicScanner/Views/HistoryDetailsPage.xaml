@@ -19,14 +19,14 @@
 				<ColumnDefinition Width="*" />
 				<ColumnDefinition Width="*" />
 			</Grid.ColumnDefinitions>
-			<Label Grid.Row="1" Grid.Column="0" Text=" " />
+			<Label Grid.Row="1" Grid.Column="0" Text="{i18n:Translate TimeLabel}" />
 			<Label Grid.Row="2" Grid.Column="0" Text="{i18n:Translate DateLabel}" />
 			<Label Grid.Row="3" Grid.Column="0" Text="{i18n:TranslateExtension Text=UserLabel}" />
 			<Label Grid.Row="4" Grid.Column="0" Text="{i18n:TranslateExtension Text=FormatLabel}" />
 			<Label Grid.Row="5" Grid.Column="0" Text="{i18n:TranslateExtension Text=ContentLabel}" />
 			<Label Grid.Row="1" Grid.Column="1" Text="{Binding HistoryData.Date}" />
 			<Label Grid.Row="2" Grid.Column="1" Text="{Binding HistoryData.Time}" />
-			<Label Grid.Row="3" Grid.Column="1" Text="{Binding HistoryData.Owner.username}" />
+			<Label Grid.Row="3" Grid.Column="1" Text="{Binding User}" />
 			<Label Grid.Row="4" Grid.Column="1" Text="{Binding HistoryData.Format}" />
 			<Label Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding HistoryData.Content}" HorizontalTextAlignment="Center" />
 			<Button Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Text="{i18n:TranslateExtension Text=Close}" Command="{Binding BackCommand}" />

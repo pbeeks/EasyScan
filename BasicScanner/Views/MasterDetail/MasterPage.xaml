@@ -3,7 +3,7 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		xmlns:i18n="clr-namespace:BasicScanner;assembly=BasicScanner"
 		x:Class="BasicScanner.MasterPage" 
-		Padding="0,40,0,0"
+		Padding="0,20,0,0"
 		Icon="burg.png"
 		Title="{i18n:Translate MainPageTitle}">
 		<ContentPage.ToolbarItems>
