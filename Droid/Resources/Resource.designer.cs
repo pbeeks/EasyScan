@@ -65,8 +65,6 @@ namespace BasicScanner.Droid
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::BasicScanner.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 			global::Splat.Resource.String.library_name = global::BasicScanner.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::BasicScanner.Droid.Resource.Attribute.actionBarSize;
-			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::BasicScanner.Droid.Resource.String.ApplicationName;
-			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::BasicScanner.Droid.Resource.String.Hello;
 			global::ZXing.Mobile.Resource.Id.contentFrame = global::BasicScanner.Droid.Resource.Id.contentFrame;
 			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::BasicScanner.Droid.Resource.Layout.zxingscanneractivitylayout;
 			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::BasicScanner.Droid.Resource.Layout.zxingscannerfragmentlayout;
@@ -3072,12 +3070,6 @@ namespace BasicScanner.Droid
 		
 		public partial class String
 		{
-			
-			// aapt resource value: 0x7f060028
-			public const int ApplicationName = 2131099688;
-			
-			// aapt resource value: 0x7f060027
-			public const int Hello = 2131099687;
 			
 			// aapt resource value: 0x7f060012
 			public const int abc_action_bar_home_description = 2131099666;

@@ -14,7 +14,6 @@ namespace BasicScanner
 
 			InitializeComponent();
 
-
 			#region Expiramental
 			System.Diagnostics.Debug.WriteLine("===============");
 			var assembly = typeof(App).GetTypeInfo().Assembly;

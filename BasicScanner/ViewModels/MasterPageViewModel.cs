@@ -2,7 +2,7 @@
 using System.Windows.Input;
 using Xamarin.Forms;
 using System.Linq;
-using BasicScanner.Localization;
+using BasicScanner.Resources;
 
 namespace BasicScanner
 {

@@ -12,7 +12,7 @@ namespace BasicScanner.iOS
 		public SQLite_iOS() { }
 		public SQLite.SQLiteConnection GetConnection()
 		{
-			var sqliteFilename = "TodoSQLite.db3";
+			var sqliteFilename = "BasicScannerSQLite.db3";
 			string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal); // Documents folder
 			string libraryPath = Path.Combine(documentsPath, "..", "Library"); // Library folder
 			var path = Path.Combine(libraryPath, sqliteFilename);

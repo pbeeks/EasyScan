@@ -55,4 +55,8 @@
     <value>Balayage</value>
     <comment>label for scan label field</comment>
 	</data> 
+	<data name="TimeLabel" xml:space="preserve">
+    <value>Temps: </value>
+    <comment>label for scan label field</comment>
+	</data> 
 </root>
