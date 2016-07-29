@@ -2,6 +2,7 @@
 using ZXing.Net.Mobile.Forms;
 using Xamarin.Forms;
 using Acr.UserDialogs;
+using BasicScanner.Localization;
 
 namespace BasicScanner
 {
@@ -13,11 +14,11 @@ namespace BasicScanner
 		private User _currUser;
 
 
-	     public ScannerPage(INavigation nav)
+		public ScannerPage(INavigation nav)
 		{
 			_currUser = App.PubUser;
 			_nav = nav;
-			Title = "Scan";
+			Title = AppResources.ScanLabel;
 			zxing = new ZXingScannerView()
 			{
 				HorizontalOptions = LayoutOptions.FillAndExpand,
@@ -27,28 +28,28 @@ namespace BasicScanner
 			zxing.OnScanResult += (result) =>
 			   Device.BeginInvokeOnMainThread(async () =>
 			  {
-				   // Stop analysis until we navigate away so we don't keep reading barcodes
-				   zxing.IsAnalyzing = false;
+				  // Stop analysis until we navigate away so we don't keep reading barcodes
+				  zxing.IsAnalyzing = false;
 				  zxing.IsScanning = false;
-			#if __ANDROID__
+#if __ANDROID__
    			 // Initialize the scanner first so it can track the current context
    			 MobileBarcodeScanner.Initialize (Application);
-			#endif
+#endif
 
-				   if (result != null)
+				  if (result != null)
 				  {
 					  var answer = await UserDialogs.Instance.ConfirmAsync("Would you like to track this barcode?", "Barcode found!", "Yes", "No");
 					  if (answer == true)
 					  {
 						  string[] timeArray = DateTime.Now.ToString().Split(null);
-						 
-							  var newScan = new ScanResult();
-							  newScan.Date = timeArray[0];
+
+						  var newScan = new ScanResult();
+						  newScan.Date = timeArray[0];
 						  newScan.Time = timeArray[1];
-							  newScan.Format = result.BarcodeFormat.ToString();
-							  newScan.UserID = _currUser.ID;
-							  newScan.Content = result.Text;
-							  App.Database.InsertScanResult(newScan);
+						  newScan.Format = result.BarcodeFormat.ToString();
+						  newScan.UserID = _currUser.ID;
+						  newScan.Content = result.Text;
+						  App.Database.InsertScanResult(newScan);
 					  }
 				  }
 				  await _nav.PopAsync();

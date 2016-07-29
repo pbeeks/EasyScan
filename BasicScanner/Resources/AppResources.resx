@@ -13,7 +13,7 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="DateLabel" xml:space="preserve">
-    <value>Date:</value>
+    <value>Date-pat:</value>
     <comment>label for date field</comment>
 	</data>
 	<data name="TimeLabel" xml:space="preserve">
@@ -38,14 +38,21 @@
 	</data>
 	<data name="NotesLabel" xml:space="preserve">
     <value>Notes:</value>
-    <comment>label for input field</comment>
+    <comment>label for Notes field</comment>
 	</data>
 	<data name="ScansLabel" xml:space="preserve">
     <value>Scans: </value>
-    <comment>label for input field</comment>
+    <comment>label for Scans field</comment>
 	</data>
 	<data name="LastScanLabel" xml:space="preserve">
     <value>Last Scan: </value>
-    <comment>label for input field</comment>
+    <comment>label for Last Scan Label field</comment>
+	</data> 
+	<data name="MainPageTitle">
+    <value>Landing Page</value>
 	</data>
+	<data name="ScanLabel" xml:space="preserve">
+    <value>Scan</value>
+    <comment>label for last scan label field</comment>
+	</data> 
 </root>
