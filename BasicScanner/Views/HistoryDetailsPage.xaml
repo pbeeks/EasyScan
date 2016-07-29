@@ -20,7 +20,7 @@
 				<ColumnDefinition Width="*" />
 			</Grid.ColumnDefinitions>
 			<Label Grid.Row="1" Grid.Column="0" Text=" " />
-			<Label Grid.Row="2" Grid.Column="0" Text="{i18n:TranslateExtension Text=DateLabel}" />
+			<Label Grid.Row="2" Grid.Column="0" Text="{i18n:Translate DateLabel}" />
 			<Label Grid.Row="3" Grid.Column="0" Text="{i18n:TranslateExtension Text=UserLabel}" />
 			<Label Grid.Row="4" Grid.Column="0" Text="{i18n:TranslateExtension Text=FormatLabel}" />
 			<Label Grid.Row="5" Grid.Column="0" Text="{i18n:TranslateExtension Text=ContentLabel}" />

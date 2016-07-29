@@ -14,12 +14,20 @@ namespace BasicScanner
 
 			InitializeComponent();
 
-			//System.Globalization.CultureInfo culture = null;
-			//if (Device.OS != TargetPlatform.WinPhone)
-			//{
-			//	culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
-			//}
 
+			#region Expiramental
+			System.Diagnostics.Debug.WriteLine("===============");
+			var assembly = typeof(App).GetTypeInfo().Assembly;
+			foreach (var res in assembly.GetManifestResourceNames())
+				System.Diagnostics.Debug.WriteLine("found resource: " + res);
+
+
+			if (Device.OS != TargetPlatform.WinPhone)
+			{
+				DependencyService.Get<ILocalize>().SetLocale();
+				//Resx.AppResources.Culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
+			}
+			#endregion
 
 			var isLoggedIn = Properties.ContainsKey("IsLoggedIn") ? (bool)Properties["IsLoggedIn"] : false;
 

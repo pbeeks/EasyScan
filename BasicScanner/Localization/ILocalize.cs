@@ -1,6 +1,14 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 
-public interface ILocalize
+
+namespace BasicScanner
 {
-	CultureInfo GetCurrentCultureInfo();
+
+	public interface ILocalize
+	{
+		CultureInfo GetCurrentCultureInfo();
+
+		void SetLocale();
+	}
 }
