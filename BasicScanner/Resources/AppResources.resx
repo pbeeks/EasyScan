@@ -55,4 +55,52 @@
     <value>Scan</value>
     <comment>label for last scan label field</comment>
 	</data> 
+	<data name="HistoryLabel" xml:space="preserve">
+    <value>History</value>
+    <comment>label for History label field</comment>
+	</data>
+	<data name="LogOutLabel" xml:space="preserve">
+    <value>Log Out</value>
+    <comment>label for Log Out label field</comment>
+	</data>
+	<data name="LogOutQuestion" xml:space="preserve">
+    <value>Are you sure you want to log out?</value>
+    <comment>label for Log Out label field</comment>
+	</data>
+	<data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+    <comment>label for Log Out label field</comment>
+	</data>
+	<data name="No" xml:space="preserve">
+    <value>No</value>
+    <comment>label for Log Out label field</comment>
+	</data>
+	<data name="UsernameLabel" xml:space="preserve">
+    <value>username</value>
+    <comment>placeholder for username field</comment>
+	</data>
+	<data name="PasswordLabel" xml:space="preserve">
+    <value>password</value>
+    <comment>placeholder for password field</comment>
+	</data>
+	<data name="LoginButtonLabel" xml:space="preserve">
+    <value>Login</value>
+    <comment>text for Login button field</comment>
+	</data>
+	<data name="UserNotFound" xml:space="preserve">
+    <value>User not found, create user </value>
+    <comment>text for user not found alert field</comment>
+	</data>
+	<data name="UserCreated" xml:space="preserve">
+    <value>User created</value>
+    <comment>text for user created alert field</comment>
+	</data> 
+	<data name="LoginFailed" xml:space="preserve">
+    <value>Login failed: username or password incorrect</value>
+    <comment>text for login failed alert </comment>
+	</data> 
+	<data name="ScanLabel" xml:space="preserve">
+    <value>Scan</value>
+    <comment>label for Scans field</comment>
+	</data>
 </root>

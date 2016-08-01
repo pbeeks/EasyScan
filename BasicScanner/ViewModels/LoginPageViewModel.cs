@@ -3,6 +3,8 @@ using Acr.UserDialogs;
 using System;
 using System.Windows.Input;
 using System.Threading.Tasks;
+using System.Reflection;
+using System.Resources;
 
 namespace BasicScanner
 {
@@ -11,6 +13,7 @@ namespace BasicScanner
 		#region Variables
 		private INavigation _nav;
 		private Command _loginCommand;
+		private ResourceManager _resmgr;
 		#endregion
 
 		#region Properties
@@ -56,6 +59,7 @@ namespace BasicScanner
 		#region Methods
 		public LoginPageViewModel(INavigation navigation)
 		{
+			_resmgr = new ResourceManager("BasicScanner.Resources.AppResources", typeof(TranslateExtension).GetTypeInfo().Assembly);
 			_nav = navigation;
 		}
 
@@ -87,10 +91,11 @@ namespace BasicScanner
 
 		public async void NewUser()
 		{
+			string _failAlert = _resmgr.GetString("UserNotFound");
 			// Give the user opportunity to create a new user
 			await UserDialogs.Instance.AlertAsync(new AlertConfig
 			{
-				Title = "User not found, create user " + UserParam + "?",
+				Title = _failAlert + UserParam + "?",
 			});
 
 			User loginUser = new User();
@@ -99,7 +104,8 @@ namespace BasicScanner
 			App.Database.InsertUser(loginUser);
 
 			// Show successful login
-			UserDialogs.Instance.ShowSuccess("User created", 3000);
+			string _successAlert = _resmgr.GetString("UserCreated");
+			UserDialogs.Instance.ShowSuccess(_successAlert, 3000);
 			PostLogin(loginUser);
 		}
 		#endregion
@@ -136,7 +142,8 @@ namespace BasicScanner
 				if (loginUser == null)
 				{
 					// Show login failure
-					UserDialogs.Instance.ShowError("Login failed: username or password incorrect", 3000);
+					string _loginFailAlert = _resmgr.GetString("LoginFailed");
+					UserDialogs.Instance.ShowError(_loginFailAlert, 3000);
 				}
 				//Username and password match
 				else {

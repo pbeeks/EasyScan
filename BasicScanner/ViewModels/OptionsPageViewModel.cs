@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System.Reflection;
+using System.Resources;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using Acr.UserDialogs;
 using Xamarin.Forms;
@@ -12,11 +14,13 @@ namespace BasicScanner
 		private Command _historyCommand;
 		private Command _logoutCommand;
 		private User _currUser;
+		private ResourceManager _resmgr;
 		#endregion
 
 		#region Methods
 		public OptionsPageViewModel(INavigation navigation)
 		{
+			_resmgr = new ResourceManager("BasicScanner.Resources.AppResources", typeof(TranslateExtension).GetTypeInfo().Assembly);
 			_nav = navigation;
 			_currUser = App.PubUser;
 		}
@@ -60,7 +64,11 @@ namespace BasicScanner
 		//Task to log out and set the properties to diable the persisting user
 		async Task LogoutTask()
 		{
-			bool result = await UserDialogs.Instance.ConfirmAsync("Are you sure you want to log out?", "Log out?", "Yes", "No");
+			string _logoutQuestion = _resmgr.GetString("LogOutQuestion");
+			string _logOut = _resmgr.GetString("LogOutLabel");
+			string _yes = _resmgr.GetString("Yes");
+			string _no = _resmgr.GetString("No");
+			bool result = await UserDialogs.Instance.ConfirmAsync(_logoutQuestion, _logOut,_yes, _no);
 			if (result == true)
 			{
 				App.Current.Properties["IsLoggedIn"] = false;

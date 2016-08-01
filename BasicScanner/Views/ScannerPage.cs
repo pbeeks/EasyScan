@@ -2,7 +2,8 @@
 using ZXing.Net.Mobile.Forms;
 using Xamarin.Forms;
 using Acr.UserDialogs;
-using BasicScanner.Localization;
+using System.Resources;
+using System.Reflection;
 
 namespace BasicScanner
 {
@@ -12,13 +13,14 @@ namespace BasicScanner
 		ZXingDefaultOverlay overlay;
 		private INavigation _nav;
 		private User _currUser;
-
+		ResourceManager _resmgr;
 
 		public ScannerPage(INavigation nav)
 		{
+			_resmgr = new ResourceManager("BasicScanner.Resources.AppResources", typeof(TranslateExtension).GetTypeInfo().Assembly);
 			_currUser = App.PubUser;
 			_nav = nav;
-			Title = AppResources.ScanLabel;
+			Title = _resmgr.GetString("ScanLabel");
 			zxing = new ZXingScannerView()
 			{
 				HorizontalOptions = LayoutOptions.FillAndExpand,

@@ -2,7 +2,6 @@
 using System.Windows.Input;
 using Xamarin.Forms;
 using System.Linq;
-using BasicScanner.Localization;
 using System.Resources;
 using System.Reflection;
 
