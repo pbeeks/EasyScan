@@ -4,8 +4,8 @@
 		<ScrollView>
 			<StackLayout>
 				<Image Source="newScanner.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-				<Entry x:Name="usernameBox" Placeholder="{i18n:Translate UsernameLabel}" HorizontalOptions="CenterAndExpand" Text="{Binding UserParam}" />
-				<Entry x:Name="passwordBox" Placeholder="{i18n:Translate PasswordLabel}" IsPassword="true" HorizontalOptions="CenterAndExpand" Text="{Binding PassParam}" />
+				<Entry x:Name="usernameBox" WidthRequest="150" Placeholder="{i18n:Translate UsernameLabel}" HorizontalOptions="Center" Text="{Binding UserParam}" />
+				<Entry x:Name="passwordBox" WidthRequest="150" Placeholder="{i18n:Translate PasswordLabel}" IsPassword="true" HorizontalOptions="Center" Text="{Binding PassParam}" />
 				<Button x:Name="loginButton" Command="{Binding LoginCommand}" Text="{i18n:Translate LoginButtonLabel}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="Large" >
 				</Button>
 			</StackLayout>
