@@ -2,7 +2,7 @@
 using ZXing.Net.Mobile.Forms;
 using Xamarin.Forms;
 using Acr.UserDialogs;
-using BasicScanner.Resources;
+using BasicScanner.Localization;
 
 namespace BasicScanner
 {
@@ -45,7 +45,7 @@ namespace BasicScanner
 
 						  var newScan = new ScanResult();
 						  newScan.Date = timeArray[0];
-						  newScan.Time = timeArray[1] + timeArray[2];
+						  newScan.Time = timeArray[1];
 						  newScan.Format = result.BarcodeFormat.ToString();
 						  newScan.UserID = _currUser.ID;
 						  newScan.Content = result.Text;

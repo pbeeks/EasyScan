@@ -2,7 +2,9 @@
 using System.Windows.Input;
 using Xamarin.Forms;
 using System.Linq;
-using BasicScanner.Resources;
+using BasicScanner.Localization;
+using System.Resources;
+using System.Reflection;
 
 namespace BasicScanner
 {
@@ -12,6 +14,8 @@ namespace BasicScanner
 		private INavigation _nav;
 		private Command _scanCommand;
 		private User _currUser;
+
+        ResourceManager _resmgr;
 		#endregion
 
 		#region Properties
@@ -55,6 +59,19 @@ namespace BasicScanner
 		{
 			_currUser = App.PubUser;
 			_nav = navigation;
+
+            //var culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
+
+            _resmgr = new ResourceManager("BasicScanner.Resources.AppResources", typeof(TranslateExtension).GetTypeInfo().Assembly);
+            //if (culture != null)
+            //{
+            //    AppResources.Culture = culture;
+            //}
+
+            //if (Device.OS != TargetPlatform.WinPhone)
+            //{
+            //    AppResources.Culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
+            //}
 		}
 
 		public void Update()
@@ -75,8 +92,13 @@ namespace BasicScanner
 				time = "--";
 			}
 
-			Count = AppResources.ScansLabel + scans;
-			LastScan = AppResources.LastScanLabel + date + " " + time;
+            //Count = AppResources.ScansLabel + scans;
+            //LastScan = AppResources.LastScanLabel + date + " " + time;
+
+			Count = _resmgr.GetString("ScansLabel") + scans;
+			LastScan = _resmgr.GetString("LastScanLabel") + date + " " + time;
+
+
 		}
 		#endregion
 
