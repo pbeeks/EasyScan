@@ -42,7 +42,6 @@
 	<string>Assets.xcassets/AppIcons.appiconset</string>
 	<key>CFBundleLocalizations</key>
 	<array>
-		<string>en</string>
 		<string>fr</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>

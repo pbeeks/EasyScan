@@ -10,7 +10,6 @@ namespace BasicScanner
 		#region Variables
 		public ScanResult HistoryData { get; set; }
 		public Image Barcode { get; set; }
-		public string User { get; set; }
 		private INavigation _nav;
 		#endregion
 
@@ -20,7 +19,6 @@ namespace BasicScanner
 			_nav = iNav;
 			HistoryData = Info;
 			Barcode = GetBarcode();
-			User = App.PubUser.username;
 		}
 
 		// Method to generate the barcode image for the HistoryDetailsPage

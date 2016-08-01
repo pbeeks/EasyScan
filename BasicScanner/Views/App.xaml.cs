@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using System;
 using System.Reflection;
+using BasicScanner.Localization;
 
 namespace BasicScanner
 {
@@ -14,6 +15,7 @@ namespace BasicScanner
 
 			InitializeComponent();
 
+
 			#region Expiramental
 			System.Diagnostics.Debug.WriteLine("===============");
 			var assembly = typeof(App).GetTypeInfo().Assembly;
@@ -21,11 +23,12 @@ namespace BasicScanner
 				System.Diagnostics.Debug.WriteLine("found resource: " + res);
 
 
-			if (Device.OS != TargetPlatform.WinPhone)
-			{
-				DependencyService.Get<ILocalize>().SetLocale();
-				//Resx.AppResources.Culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
-			}
+            //if (Device.OS != TargetPlatform.WinPhone)
+            //{
+            //    AppResources.Culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
+            //}
+
+
 			#endregion
 
 			var isLoggedIn = Properties.ContainsKey("IsLoggedIn") ? (bool)Properties["IsLoggedIn"] : false;
