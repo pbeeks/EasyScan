@@ -1,7 +1,6 @@
 ﻿using Xamarin.Forms;
 using System;
 using System.Reflection;
-using BasicScanner.Localization;
 
 namespace BasicScanner
 {

@@ -13,15 +13,15 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="DateLabel" xml:space="preserve">
-    <value>Date-pat:</value>
+    <value>Date:</value>
     <comment>label for date field</comment>
 	</data>
 	<data name="TimeLabel" xml:space="preserve">
-    <value>Time:</value>
+    <value>Temps:</value>
     <comment>label for time field</comment>
 	</data>
 	<data name="UserLabel" xml:space="preserve">
-    <value>User:</value>
+    <value>Utilisateur:</value>
     <comment>label for user field</comment>
 	</data>
 	<data name="FormatLabel" xml:space="preserve">
@@ -29,15 +29,15 @@
     <comment>label for format field</comment>
 	</data>
 	<data name="ContentLabel" xml:space="preserve">
-    <value>Content:</value>
+    <value>Contenu:</value>
     <comment>label for content field</comment>
 	</data>
 	<data name="Close" xml:space="preserve">
-    <value>Close</value>
+    <value>Fermer</value>
     <comment>label for date field</comment>
 	</data>
 	<data name="NotesLabel" xml:space="preserve">
-    <value>Notes:</value>
+    <value>Remarques:</value>
     <comment>label for Notes field</comment>
 	</data>
 	<data name="ScansLabel" xml:space="preserve">
@@ -54,5 +54,49 @@
 	<data name="ScanLabel" xml:space="preserve">
     <value>Balayage</value>
     <comment>label for scan label field</comment>
+	</data> 
+	<data name="HistoryLabel" xml:space="preserve">
+    <value>Histoire</value>
+    <comment>label for History label field</comment>
+	</data>
+	<data name="LogOutLabel" xml:space="preserve">
+    <value>Se Déconnecter</value>
+    <comment>label for Log Out label field</comment>
+	</data>
+	<data name="LogOutQuestion" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir vous déconnecter?</value>
+    <comment>label for Log Out label field</comment>
+	</data>
+	<data name="Yes" xml:space="preserve">
+    <value>Oui</value>
+    <comment>label for Log Out label field</comment>
+	</data>
+	<data name="No" xml:space="preserve">
+    <value>Non</value>
+    <comment>label for Log Out label field</comment>
+	</data>
+	<data name="UsernameLabel" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
+    <comment>placeholder for username field</comment>
+	</data>
+	<data name="PasswordLabel" xml:space="preserve">
+    <value>mot de passe</value>
+    <comment>placeholder for password field</comment>
+	</data>
+	<data name="LoginButtonLabel" xml:space="preserve">
+    <value>S'identifier</value>
+    <comment>text for Login button field</comment>
+	</data>
+	<data name="UserNotFound" xml:space="preserve">
+    <value>Utilisateur non trouvé, créer un utilisateur </value>
+    <comment>text for user not found alert field</comment>
+	</data>
+	<data name="UserCreated" xml:space="preserve">
+    <value>utilisateur créé</value>
+    <comment>text for user created alert field</comment>
+	</data> 
+	<data name="LoginFailed" xml:space="preserve">
+    <value>Échec de la connexion : nom d'utilisateur ou mot de passe incorrect</value>
+    <comment>text for login failed alert </comment>
 	</data> 
 </root>

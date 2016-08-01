@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:local="clr-namespace:BasicScanner;assembly=BasicScanner" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicScanner.HistoryPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:local="clr-namespace:BasicScanner;assembly=BasicScanner" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:i18n="clr-namespace:BasicScanner;assembly=BasicScanner" x:Class="BasicScanner.HistoryPage">
 	<ContentPage.Content>
 		<local:NativeListView ItemsSource="{Binding ScanList}" ItemSelected="HistorySelected">
 			<ListView.ItemTemplate>
