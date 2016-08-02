@@ -7,6 +7,7 @@ namespace BasicScanner
 	{
 		private User _currUser;
 		private MasterPageViewModel _view;
+
 		public MasterPage()
 		{
 			_currUser = App.PubUser;

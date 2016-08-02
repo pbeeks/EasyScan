@@ -44,7 +44,7 @@ namespace BasicScanner
 			{
 				PubUser = App.Database.GetUserByName(persistUser);
 
-				MainPage = new NavigationPage(new RootPage());
+				MainPage = new RootPage();
 			}
 			else {
 				MainPage = new LoginPage();

@@ -43,11 +43,9 @@ namespace BasicScanner
 					  var answer = await UserDialogs.Instance.ConfirmAsync("Would you like to track this barcode?", "Barcode found!", "Yes", "No");
 					  if (answer == true)
 					  {
-						  string[] timeArray = DateTime.Now.ToString().Split(null);
-
+						  DateTime dt = DateTime.Now;
 						  var newScan = new ScanResult();
-						  newScan.Date = timeArray[0];
-						  newScan.Time = timeArray[1];
+						  newScan.DT = dt;
 						  newScan.Format = result.BarcodeFormat.ToString();
 						  newScan.UserID = _currUser.ID;
 						  newScan.Content = result.Text;

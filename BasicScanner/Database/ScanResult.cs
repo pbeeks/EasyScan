@@ -11,9 +11,7 @@ namespace BasicScanner
 		[PrimaryKey, AutoIncrement]
 		public int ScanID { get; set; }
 
-		public string Date { get; set; }
-
-		public string Time { get; set; }
+		public DateTime DT { get; set; }
 
 		public int UserID { get; set; }
 
