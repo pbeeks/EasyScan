@@ -9,13 +9,17 @@ namespace BasicScanner
 	{
 		public RootPage()
 		{
-			NavigationPage.SetHasNavigationBar(this, false);
-			Detail = new NavigationPage(new MasterPage());
+			// NavigationPage.SetHasNavigationBar(this, false);
+			Detail = new NavigationPage(new MasterPage())
+			{
+				BarBackgroundColor = Color.FromHex("#ff1a1a"),
+				BarTextColor = Color.FromHex("#ffffff")
+			};
 			Master = new OptionsPage()
 			{
 				Icon = "burg.png",
 				Title = "menu",
-				BackgroundColor = Color.FromHex("d3d3d3")
+				BackgroundColor = Color.FromHex("ff1a1a")
 			};
 		}
 

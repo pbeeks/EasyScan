@@ -13,8 +13,8 @@
 								<ColumnDefinition Width="*" />
 								<ColumnDefinition Width="*" />
 							</Grid.ColumnDefinitions>
-							<Label Grid.Column="0" Text="{Binding Date}" FontSize="Large" />
-							<Label Grid.Column="1" Text="{Binding Time}" FontSize="Large" />
+							<Label Grid.Column="0" Text="{Binding DT}" FontSize="Large" />
+							<Label Grid.Column="1" Text="{Binding DT, StringFormat='{0:HH:mm:ss}'}" FontSize="Large" />
 						</Grid>
 					</ViewCell>
 				</DataTemplate>

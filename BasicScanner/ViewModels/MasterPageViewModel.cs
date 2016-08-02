@@ -13,8 +13,7 @@ namespace BasicScanner
 		private INavigation _nav;
 		private Command _scanCommand;
 		private User _currUser;
-
-        ResourceManager _resmgr;
+        private ResourceManager _resmgr;
 		#endregion
 
 		#region Properties
@@ -62,15 +61,6 @@ namespace BasicScanner
             //var culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
 
             _resmgr = new ResourceManager("BasicScanner.Resources.AppResources", typeof(TranslateExtension).GetTypeInfo().Assembly);
-            //if (culture != null)
-            //{
-            //    AppResources.Culture = culture;
-            //}
-
-            //if (Device.OS != TargetPlatform.WinPhone)
-            //{
-            //    AppResources.Culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
-            //}
 		}
 
 		public void Update()
@@ -81,8 +71,8 @@ namespace BasicScanner
 			try
 			{
 				scans = App.Database.GetResults(_currUser).Count().ToString();
-				date = App.Database.GetResults(_currUser).ToList().Last().Date.ToString();
-				time = App.Database.GetResults(_currUser).ToList().Last().Time.ToString();
+				date = App.Database.GetResults(_currUser).ToList().Last().DT.Date.ToString("dd/MM/yyyy");
+				time = App.Database.GetResults(_currUser).ToList().Last().DT.ToString("HH:mm");
 			}
 			catch
 			{
@@ -90,9 +80,6 @@ namespace BasicScanner
 				date = "--";
 				time = "--";
 			}
-
-            //Count = AppResources.ScansLabel + scans;
-            //LastScan = AppResources.LastScanLabel + date + " " + time;
 
 			Count = _resmgr.GetString("ScansLabel") + scans;
 			LastScan = _resmgr.GetString("LastScanLabel") + date + " " + time;

@@ -57,7 +57,7 @@ namespace BasicScanner
 		{
 			await _nav.PushAsync(new HistoryPage()
 			{
-				Title = "History"
+				Title = _resmgr.GetString("HistoryLabel")
 			});
 		}
 
