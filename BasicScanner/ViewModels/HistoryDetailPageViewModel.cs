@@ -10,6 +10,8 @@ namespace BasicScanner
 		#region Variables
 		public ScanResult HistoryData { get; set; }
 		public string User { get; set; }
+		public string Date { get; set; }
+		public string Time { get; set; }
 		public Image Barcode { get; set; }
 		private INavigation _nav;
 		#endregion
@@ -21,7 +23,8 @@ namespace BasicScanner
 			HistoryData = Info;
 			Barcode = GetBarcode();
 			User = App.PubUser.username;
-
+			Time = HistoryData.DT.ToString("HH:mm");
+			Date = HistoryData.DT.Date.ToString("dd/MM/yyyy");
 		}
 
 		// Method to generate the barcode image for the HistoryDetailsPage

@@ -46,15 +46,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="kiewitLogo.jpg" width="218" height="220"/>
         <image name="dragonIcon.png" width="195" height="195"/>
         <image name="burg.png" width="20" height="20"/>
         <image name="carrot2.png" width="478" height="300"/>
         <image name="newScanner.png" width="120" height="120"/>
         <image name="newScannerBig.png" width="150" height="150"/>
         <image name="ScannerBig.png" width="512" height="512"/>
+        <image name="plus.png" width="36" height="36"/>
+        <image name="scanscan.png" width="512" height="512"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination"/>
+        <simulatedOrientationMetrics key="orientation"/>
     </simulatedMetricsContainer>
 </document>

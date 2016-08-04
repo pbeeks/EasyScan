@@ -1,6 +1,8 @@
 ﻿using Xamarin.Forms;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Windows.Input;
+using System.Threading.Tasks;
 
 namespace BasicScanner
 {
@@ -49,6 +51,29 @@ namespace BasicScanner
 		{
 			App.Database.RemoveScanResult(sender);
 			ScanList.Remove(sender);
+		}
+		#endregion
+
+		#region Commands
+		public Command _closeCommand;
+		public ICommand CloseCommand
+		{
+			get
+			{
+				if (_closeCommand == null)
+				{
+					_closeCommand = new Command(async () => await RunBack());
+				}
+				return _closeCommand;
+			}
+		}
+		#endregion 
+
+		#region Tasks
+		//Task to move a page back
+		async Task RunBack()
+		{
+			await Navigation.PopModalAsync();
 		}
 		#endregion
 	}
