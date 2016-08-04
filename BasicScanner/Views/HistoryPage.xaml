@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:local="clr-namespace:BasicScanner;assembly=BasicScanner" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:i18n="clr-namespace:BasicScanner;assembly=BasicScanner" x:Class="BasicScanner.HistoryPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:local="clr-namespace:BasicScanner;assembly=BasicScanner" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:i18n="clr-namespace:BasicScanner;assembly=BasicScanner"  x:Class="BasicScanner.HistoryPage">
 	<ContentPage.Content>
-		<local:NativeListView ItemsSource="{Binding ScanList}" ItemSelected="HistorySelected">
+		<StackLayout Margin="20">
+		<local:NativeListView ItemsSource="{Binding ScanList}" ItemSelected="HistorySelected" SeparatorColor="Red" >
 			<ListView.ItemTemplate>
 				<DataTemplate>
 					<ViewCell>
@@ -14,11 +15,13 @@
 								<ColumnDefinition Width="*" />
 							</Grid.ColumnDefinitions>
 							<Label Grid.Column="0" Text="{Binding DT}" FontSize="Large" />
-							<Label Grid.Column="1" Text="{Binding DT, StringFormat='{0:HH:mm:ss}'}" FontSize="Large" />
+							<Label Grid.Column="1" Text="{Binding DT, StringFormat='{0:HH:mm}'}" FontSize="Large" />
 						</Grid>
 					</ViewCell>
 				</DataTemplate>
 			</ListView.ItemTemplate>
 		</local:NativeListView>
+		<Button Text="{i18n:Translate Close}"  BackgroundColor="White" TextColor="Red" Command="{Binding CloseCommand}"  FontSize="Large"/>
+		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

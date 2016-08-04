@@ -55,7 +55,7 @@ namespace BasicScanner
 		#region Tasks
 		async Task HistoryTask()
 		{
-			await _nav.PushAsync(new HistoryPage()
+			await _nav.PushModalAsync(new HistoryPage()
 			{
 				Title = _resmgr.GetString("HistoryLabel")
 			});
