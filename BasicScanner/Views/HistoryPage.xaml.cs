@@ -11,6 +11,8 @@ namespace BasicScanner
 
 		public HistoryPage()
 		{
+			this.Focus();
+			NavigationPage.SetHasBackButton(this, true);
 			_histVM = new HistoryPageViewModel(this.Navigation);
 			this.BindingContext = _histVM;
 			_histVM.GetData();

@@ -86,7 +86,7 @@ namespace BasicScanner
 			App.Current.Properties["LoggedInUser"] = user.ID;
 			App.Current.SavePropertiesAsync();
 			App.PubUser = user;
-			App.Current.MainPage = new NavigationPage(new RootPage());
+			App.Current.MainPage = new RootPage();
 		}
 
 		public async void NewUser()

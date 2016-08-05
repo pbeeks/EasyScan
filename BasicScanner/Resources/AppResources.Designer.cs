@@ -178,5 +178,11 @@ namespace BasicScanner.Resources {
                 return ResourceManager.GetString("LoginFailed", resourceCulture);
             }
         }
+        
+        public static string LandingPageLabel {
+            get {
+                return ResourceManager.GetString("LandingPageLabel", resourceCulture);
+            }
+        }
     }
 }

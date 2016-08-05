@@ -99,4 +99,8 @@
     <value>Échec de la connexion : nom d'utilisateur ou mot de passe incorrect</value>
     <comment>text for login failed alert </comment>
 	</data> 
+	<data name="LandingPageLabel" xml:space="preserve">
+    <value>Page de Destination</value>
+    <comment>label for landing page label</comment>
+	</data>
 </root>
