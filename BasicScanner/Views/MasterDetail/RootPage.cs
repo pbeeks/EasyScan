@@ -9,7 +9,6 @@ namespace BasicScanner
 	{
 		public RootPage()
 		{
-			// NavigationPage.SetHasNavigationBar(this, false);
 			Detail = new NavigationPage(new MasterPage())
 			{
 				BarBackgroundColor = Color.FromHex("#ff1a1a"),

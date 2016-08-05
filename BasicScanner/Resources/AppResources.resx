@@ -102,5 +102,9 @@
 	<data name="ScanLabel" xml:space="preserve">
     <value>Scan</value>
     <comment>label for Scans field</comment>
+	</data> 
+	<data name="LandingPageLabel" xml:space="preserve">
+    <value>Landing Page</value>
+    <comment>label for landing page label</comment>
 	</data>
 </root>

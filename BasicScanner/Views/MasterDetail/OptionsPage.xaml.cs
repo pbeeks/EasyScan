@@ -10,8 +10,15 @@ namespace BasicScanner
 		
 		public OptionsPage()
 		{
+			Title = "(options page codebehind)";
 			this.BindingContext = new OptionsPageViewModel(this.Navigation);
 			InitializeComponent();
+		}
+
+		public void Boom(object sender, EventArgs e) {
+			var page = Application.Current.MainPage as RootPage;
+			page.Detail = new NavigationPage(new HistoryPage());
+
 		}
 	}
 }

@@ -13,6 +13,7 @@ namespace BasicScanner
 		private INavigation _nav;
 		private Command _historyCommand;
 		private Command _logoutCommand;
+		private Command _mainPageCommand;
 		private User _currUser;
 		private ResourceManager _resmgr;
 		#endregion
@@ -50,15 +51,29 @@ namespace BasicScanner
 				return _historyCommand;
 			}
 		}
+
+		public ICommand MainPageCommand
+		{
+			get
+			{
+				if (_mainPageCommand == null)
+				{
+					_mainPageCommand = new Command(async () => await MainPageTask());
+				}
+				return _mainPageCommand;
+			}
+		}
 		#endregion
 
 		#region Tasks
 		async Task HistoryTask()
 		{
-			await _nav.PushModalAsync(new HistoryPage()
+			var page = Application.Current.MainPage as RootPage;
+			page.Detail = new NavigationPage(new HistoryPage())
 			{
-				Title = _resmgr.GetString("HistoryLabel")
-			});
+				BarBackgroundColor = Color.FromHex("#ff1a1a"),
+				BarTextColor = Color.FromHex("#ffffff")
+			};
 		}
 
 		//Task to log out and set the properties to diable the persisting user
@@ -77,7 +92,17 @@ namespace BasicScanner
 				App.Current.MainPage = new LoginPage();
 			}
 		}
-		#endregion
+
+		async Task MainPageTask()
+		{
+			var page = Application.Current.MainPage as RootPage;
+			page.Detail = new NavigationPage(new MasterPage())
+				{
+				BarBackgroundColor = Color.FromHex("#ff1a1a"),
+				BarTextColor = Color.FromHex("#ffffff")
+			};
+		}
+		#endregion 
 	}
 }
 

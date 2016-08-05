@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicScanner.OptionsPage" Icon="burg.png" xmlns:i18n="clr-namespace:BasicScanner;assembly=BasicScanner" Padding="0,20,0,0">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BasicScanner.OptionsPage" Icon="burg.png" xmlns:i18n="clr-namespace:BasicScanner;assembly=BasicScanner" Padding="0,20,0,0" Title="xaml title" >
 	<ContentPage.Content>
 		<StackLayout >
 			<Image Source="newScanner.png" VerticalOptions="Start" Margin="40"/>
+			<Button Text="{i18n:Translate LandingPageLabel}" Command="{Binding MainPageCommand}" VerticalOptions="Center" FontSize="Large" TextColor="White" />
 			<Button Text="{i18n:Translate HistoryLabel}" Command="{Binding HistoryCommand}" VerticalOptions="Center" FontSize="Large" TextColor="White" />
 			<Button Text="{i18n:Translate LogOutLabel}" Command="{Binding LogoutCommand}" VerticalOptions="Center" FontSize="Large" TextColor="White" />
 		</StackLayout>
