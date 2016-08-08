@@ -179,9 +179,9 @@ namespace BasicScanner.Resources {
             }
         }
         
-        public static string LandingPageLabel {
+        public static string HomePageLabel {
             get {
-                return ResourceManager.GetString("LandingPageLabel", resourceCulture);
+                return ResourceManager.GetString("HomePageLabel", resourceCulture);
             }
         }
     }

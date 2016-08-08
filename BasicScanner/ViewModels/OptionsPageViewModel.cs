@@ -74,6 +74,8 @@ namespace BasicScanner
 				BarBackgroundColor = Color.FromHex("#ff1a1a"),
 				BarTextColor = Color.FromHex("#ffffff")
 			};
+			page.IsPresented = false;
+
 		}
 
 		//Task to log out and set the properties to diable the persisting user
@@ -83,7 +85,7 @@ namespace BasicScanner
 			string _logOut = _resmgr.GetString("LogOutLabel");
 			string _yes = _resmgr.GetString("Yes");
 			string _no = _resmgr.GetString("No");
-			bool result = await UserDialogs.Instance.ConfirmAsync(_logoutQuestion, _logOut,_yes, _no);
+			bool result = await UserDialogs.Instance.ConfirmAsync(_logoutQuestion, _logOut, _yes, _no);
 			if (result == true)
 			{
 				App.Current.Properties["IsLoggedIn"] = false;
@@ -97,12 +99,13 @@ namespace BasicScanner
 		{
 			var page = Application.Current.MainPage as RootPage;
 			page.Detail = new NavigationPage(new MasterPage())
-				{
+			{
 				BarBackgroundColor = Color.FromHex("#ff1a1a"),
 				BarTextColor = Color.FromHex("#ffffff")
 			};
+			page.IsPresented = false;
 		}
-		#endregion 
+		#endregion
 	}
 }
 
