@@ -5,7 +5,7 @@
 		x:Class="BasicScanner.MasterPage" 
 		Padding="0,40,0,0"
 		Icon="burg.png"
-		Title="{i18n:Translate MainPageTitle}"
+		Title="{i18n:Translate HomePageLabel}"
 		>
 		<ContentPage.ToolbarItems>
 			<ToolbarItem Icon="plus.png" Command="{Binding ScanCommand}" />

@@ -20,7 +20,6 @@ namespace BasicScanner
 		}
 
 		public void HistorySelected(object sender, SelectedItemChangedEventArgs e) {
-			
  			Navigation.PushModalAsync(new HistoryDetailsPage(e.SelectedItem as ScanResult));
 		}
 
